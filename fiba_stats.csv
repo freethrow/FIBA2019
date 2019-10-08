@@ -1,0 +1,339 @@
+ID,AssistsTotal,BlocksTotal,DefensiveReboundsTotal,DoubleDoubles,Efficiency,FieldGoals2PointsAttemptedTotal,FieldGoals2PointsMadeTotal,FieldGoals3PointsAttemptedTotal,FieldGoals3PointsMadeTotal,FreeThrowsAttemptedTotal,FreeThrowsMadeTotal,GamesPlayedTotal,LastName,MinutesTotal,OffensiveReboundsTotal,OfficialName,PersonalFoulsTotal,PlayerId,PlayerLink,PlusMinus,PointsTotal,Position,SecondsTotal,ShirtNumber,StealsTotal,TripleDoubles,TurnOversTotal,Country,FullName
+0,45,3,48,1,130.0,30,20,38,10,16,14,8,Ingles,271,1,Joe Ingles (AUS),18,152139,/basketballworldcup/2019/player/Joe-Ingles,39,84,Small Forward,16261,N/A,13,0,24,AUS,Joe Ingles
+1,50,0,25,0,91.0,30,9,39,14,15,11,8,Dellavedova,244,10,Matthew Dellavedova (AUS),17,173478,/basketballworldcup/2019/player/Matthew-Dellavedova,48,71,Guard,14670,N/A,5,0,20,AUS,Matthew Dellavedova
+2,31,2,11,0,144.0,66,38,57,23,43,37,8,Mills,271,7,Patty Mills (AUS),13,156215,/basketballworldcup/2019/player/Patty-Mills,57,182,Guard,16272,N/A,7,0,28,AUS,Patty Mills
+3,14,4,32,1,119.0,41,24,21,11,11,10,8,Baynes,170,12,Aron Baynes (AUS),18,151328,/basketballworldcup/2019/player/Aron-Baynes,35,91,Forward,10210,N/A,3,0,9,AUS,Aron Baynes
+4,19,6,36,0,106.0,47,31,2,0,6,2,8,Bogut,143,12,Andrew Bogut (AUS),24,143395,/basketballworldcup/2019/player/Andrew-Bogut,10,64,Center,8582,N/A,4,0,13,AUS,Andrew Bogut
+5,6,2,23,0,52.0,24,13,15,7,6,3,8,Landale,147,4,Jock  Landale (AUS),14,203105,/basketballworldcup/2019/player/Jock-Landale,6,50,Center,8867,N/A,2,0,13,AUS,Jock  Landale
+6,5,0,9,0,36.0,12,6,37,12,11,10,8,Goulding,142,0,Chris Goulding (AUS),20,159593,/basketballworldcup/2019/player/Chris-Goulding,0,58,Shooting Guard,8541,N/A,3,0,7,AUS,Chris Goulding
+7,4,1,13,0,34.0,13,7,2,0,14,8,8,Creek,91,8,Mitch Creek (AUS),13,188250,/basketballworldcup/2019/player/Mitch-Creek,-4,22,Small Forward,5498,N/A,2,0,2,AUS,Mitch Creek
+8,8,0,19,1,84.0,42,25,6,1,10,10,8,Kay,161,21,Nic Kay (AUS),6,209340,/basketballworldcup/2019/player/Nic-Kay,19,63,Power Forward,9718,N/A,0,0,5,AUS,Nic Kay
+9,9,0,5,0,25.0,9,6,13,5,0,0,5,Abdeen,75,1,Mahmoud Abdeen (JOR),10,182457,/basketballworldcup/2019/player/Mahmoud-Abdeen,-58,27,Point Guard,4530,N/A,3,0,9,JOR,Mahmoud Abdeen
+10,0,1,1,0,11.0,6,4,3,1,2,2,4,Abu Hawwas,22,1,Amin Abu Hawwas (JOR),2,224338,/basketballworldcup/2019/player/Amin-Abu-Hawwas,-28,13,Shooting Guard,1376,N/A,1,0,2,JOR,Amin Abu Hawwas
+11,4,1,10,0,26.0,5,3,13,4,2,1,5,Alhamarsheh,100,3,Ahmad Alhamarsheh (JOR),9,192692,/basketballworldcup/2019/player/Ahmad-Alhamarsheh,-37,19,Small Forward,6051,N/A,2,0,1,JOR,Ahmad Alhamarsheh
+12,1,0,3,0,6.0,12,3,0,0,4,1,5,AbuWazaneh,60,7,Yousef AbuWazaneh (JOR),7,220590,/basketballworldcup/2019/player/Yousef-AbuWazaneh,-42,7,Center,3606,N/A,3,0,3,JOR,Yousef AbuWazaneh
+13,3,1,4,0,12.0,17,5,0,0,5,4,4,Hussein,44,5,Mohammad Hussein (JOR),8,169001,/basketballworldcup/2019/player/Mohammad-Hussein,-22,14,Center,2684,N/A,4,0,6,JOR,Mohammad Hussein
+14,8,0,16,0,20.0,30,12,10,2,5,1,5,Abbas,122,9,Zaid Abbas (JOR),17,161534,/basketballworldcup/2019/player/Zaid-Abbas,-93,31,Power Forward,7349,N/A,1,0,15,JOR,Zaid Abbas
+15,6,0,6,0,23.0,11,5,15,6,0,0,5,Alawadi,99,2,Mousa Alawadi (JOR),7,161535,/basketballworldcup/2019/player/Mousa-Alawadi,-57,28,Shooting Guard,5956,N/A,3,0,7,JOR,Mousa Alawadi
+16,1,0,2,0,4.0,1,1,5,1,0,0,5,Al-Dasuqi,54,0,Jordan Al-Dasuqi (JOR),4,237257,/basketballworldcup/2019/player/Jordan-Al-Dasuqi,-22,5,Point Guard,3267,N/A,1,0,1,JOR,Jordan Al-Dasuqi
+17,6,1,18,0,71.0,43,26,0,0,20,13,4,Al Dwairi,121,11,Ahmad Al Dwairi (JOR),8,176886,/basketballworldcup/2019/player/Ahmad-Al-Dwairi,-101,65,Center,7292,N/A,2,0,8,JOR,Ahmad Al Dwairi
+18,6,1,22,1,76.0,50,25,28,7,39,34,5,Tucker,165,2,Dar Tucker (JOR),7,192186,/basketballworldcup/2019/player/Dar-Tucker,-101,105,Shooting Guard,9900,N/A,6,0,15,JOR,Dar Tucker
+19,17,1,12,0,31.0,21,7,14,6,6,4,5,Ibrahim,120,0,Freddy Ibrahim (JOR),8,273030,/basketballworldcup/2019/player/Freddy-Ibrahim,-74,36,Guard,7208,N/A,3,0,14,JOR,Freddy Ibrahim
+20,43,2,24,0,98.0,27,17,22,7,2,1,8,Jovic,199,7,Stefan Jovic (SRB),21,156597,/basketballworldcup/2019/player/Stefan-Jovic,133,56,Point Guard,11981,N/A,8,0,16,SRB,Stefan Jovic
+21,26,0,12,0,57.0,22,13,15,3,10,10,8,Micic,149,2,Vasilije Micic (SRB),14,181243,/basketballworldcup/2019/player/Vasilije-Micic,29,45,Point Guard,8984,N/A,7,0,14,SRB,Vasilije Micic
+22,35,2,25,1,197.0,42,25,66,35,35,28,8,Bogdanovic,224,8,Bogdan Bogdanovic (SRB),10,182399,/basketballworldcup/2019/player/Bogdan-Bogdanovic,100,183,Shooting Guard,13441,N/A,10,0,11,SRB,Bogdan Bogdanovic
+23,8,1,6,0,35.0,9,5,20,7,10,8,7,Guduric,104,2,Marko Guduric (SRB),6,190724,/basketballworldcup/2019/player/Marko-Guduric,35,39,Shooting Guard,6279,N/A,5,0,7,SRB,Marko Guduric
+24,7,2,17,0,73.0,20,12,14,4,24,21,8,Lucic,173,7,Vladimir Lucic (SRB),22,171039,/basketballworldcup/2019/player/Vladimir-Lucic,66,57,Forward,10418,N/A,6,0,2,SRB,Vladimir Lucic
+25,2,1,10,0,28.0,10,6,11,4,0,0,8,Simonovic,105,3,Marko Simonovic (SRB),11,143948,/basketballworldcup/2019/player/Marko-Simonovic1,70,24,Small Forward,6352,N/A,3,0,4,SRB,Marko Simonovic
+26,19,4,21,0,93.0,28,12,28,12,18,15,7,Bjelica,149,12,Nemanja Bjelica (SRB),13,159925,/basketballworldcup/2019/player/Nemanja-Bjelica,43,75,Forward,8970,N/A,6,0,9,SRB,Nemanja Bjelica
+27,3,1,15,0,35.0,9,5,13,5,8,4,6,Bircevic,52,2,Stefan Bircevic (SRB),9,174195,/basketballworldcup/2019/player/Stefan-Bircevic,46,29,Power Forward,3131,N/A,3,0,2,SRB,Stefan Bircevic
+28,38,4,47,2,152.0,40,30,10,4,25,20,8,Jokic,181,13,Nikola Jokic (SRB),18,203055,/basketballworldcup/2019/player/Nikola-Jokic,101,92,Power Forward,10871,N/A,2,0,23,SRB,Nikola Jokic
+29,11,2,12,0,51.0,24,11,0,0,23,21,7,Raduljica,66,3,Miroslav Raduljica (SRB),15,146465,/basketballworldcup/2019/player/Miroslav-Raduljica,37,43,Center,3999,N/A,5,0,10,SRB,Miroslav Raduljica
+30,6,1,13,0,68.0,27,21,0,0,20,14,8,Milutinov,114,5,Nikola Milutinov (SRB),9,183465,/basketballworldcup/2019/player/Nikola-Milutinov,47,56,Center,6882,N/A,1,0,2,SRB,Nikola Milutinov
+31,5,3,12,1,61.0,28,22,1,0,15,10,8,Marjanovic,78,8,Boban Marjanovic (SRB),12,146455,/basketballworldcup/2019/player/Boban-Marjanovic,68,54,Center,4692,N/A,1,0,10,SRB,Boban Marjanovic
+32,19,0,5,0,32.0,31,10,19,7,1,1,5,Diabate,129,4,Souleyman Diabate (CIV),5,158183,/basketballworldcup/2019/player/Souleyman-Diabate,-50,42,Point Guard,7759,N/A,5,0,10,CIV,Souleyman Diabate
+33,4,0,7,0,26.0,29,12,3,0,5,3,4,Kone,73,9,Mohamed Kone (CIV),6,158052,/basketballworldcup/2019/player/Mohamed-Kone,-33,27,Center,4422,N/A,3,0,2,CIV,Mohamed Kone
+34,2,0,3,0,22.0,11,6,9,4,10,6,5,Bamba,78,4,Tiegbe Bamba (CIV),9,220410,/basketballworldcup/2019/player/Tiegbe-Bamba,-48,30,Forward,4712,N/A,1,0,4,CIV,Tiegbe Bamba
+35,12,3,9,0,11.0,13,3,10,1,9,7,5,Fofana,110,4,Vafessa Fofana (CIV),13,194839,/basketballworldcup/2019/player/Vafessa-Fofana,-23,16,Forward,6610,N/A,6,0,18,CIV,Vafessa Fofana
+36,12,0,13,0,31.0,16,5,10,3,4,3,5,Pamba,95,5,Bryan Pamba (CIV),6,169486,/basketballworldcup/2019/player/Bryan-Pamba,-17,22,Point Guard,5719,N/A,5,0,7,CIV,Bryan Pamba
+37,7,0,9,0,54.0,35,17,21,8,11,9,5,Abouo,132,7,Charles Abouo (CIV),7,161515,/basketballworldcup/2019/player/Charles-Abouo,-41,67,Shooting Guard,7963,N/A,5,0,8,CIV,Charles Abouo
+38,9,0,12,0,20.0,20,6,18,5,9,6,5,Edi,126,4,Guy Landry Edi (CIV),6,154987,/basketballworldcup/2019/player/Guy-Landry-Edi,-66,33,Shooting Guard,7566,N/A,1,0,9,CIV,Guy Landry Edi
+39,4,0,10,0,19.0,11,5,0,0,1,0,5,Zerbo,53,3,Frejus Zerbo (CIV),13,170757,/basketballworldcup/2019/player/Frejus-Zerbo,-13,10,Center,3182,N/A,3,0,4,CIV,Frejus Zerbo
+40,8,3,22,0,72.0,38,17,17,8,10,8,5,Thompson,153,11,Deon Thompson (CIV),8,159897,/basketballworldcup/2019/player/Deon-Thompson,-72,66,Power Forward,9215,N/A,5,0,11,CIV,Deon Thompson
+41,12,1,25,0,108.0,36,21,27,9,27,24,8,Barnes,212,12,Harrison Barnes (USA),13,218645,/basketballworldcup/2019/player/Harrison-Barnes,64,93,Forward,12741,N/A,10,0,9,USA,Harrison Barnes
+42,6,1,5,0,30.0,11,7,10,3,15,9,5,Smart,88,2,Marcus Smart (USA),9,195962,/basketballworldcup/2019/player/Marcus-Smart,16,32,Shooting Guard,5334,N/A,4,0,3,USA,Marcus Smart
+43,19,0,29,0,97.0,36,18,28,10,14,13,8,Middleton,158,10,Khris Middleton (USA),17,272211,/basketballworldcup/2019/player/Khris-Middleton,77,79,Small Forward,9486,N/A,5,0,8,USA,Khris Middleton
+44,11,2,23,0,73.0,41,20,17,6,11,5,8,Brown,160,11,Jaylen Brown (USA),14,210254,/basketballworldcup/2019/player/Jaylen-Brown,46,63,Small Forward,9623,N/A,5,0,4,USA,Jaylen Brown
+45,40,3,27,1,134.0,46,24,42,17,8,6,8,Mitchell,217,7,Donovan Mitchell (USA),16,272216,/basketballworldcup/2019/player/Donovan-Mitchell,96,105,Guard,13035,N/A,9,0,8,USA,Donovan Mitchell
+46,20,0,8,0,52.0,29,17,12,2,9,7,8,White,124,2,Derrick White (USA),14,257426,/basketballworldcup/2019/player/Derrick-White,10,47,Guard,7455,N/A,10,0,11,USA,Derrick White
+47,2,1,11,0,15.0,9,3,0,0,3,2,6,Plumlee,47,5,Mason Plumlee (USA),1,167428,/basketballworldcup/2019/player/Mason-Plumlee,22,8,Center,2834,N/A,0,0,5,USA,Mason Plumlee
+48,10,0,22,0,78.0,19,10,26,13,6,5,8,Harris,169,9,Joe Harris (USA),21,272804,/basketballworldcup/2019/player/Joe-Harris,45,64,Shooting Guard,10189,N/A,4,0,8,USA,Joe Harris
+49,38,2,16,0,112.0,35,21,39,15,20,14,7,Walker,177,5,Kemba Walker (USA),16,167434,/basketballworldcup/2019/player/Kemba-Walker,79,101,Point Guard,10677,N/A,6,0,12,USA,Kemba Walker
+50,2,5,10,0,12.0,8,3,19,3,5,3,7,Lopez,66,3,Brook Lopez (USA),4,183425,/basketballworldcup/2019/player/Brook-Lopez,-20,18,Center,3964,N/A,0,0,3,USA,Brook Lopez
+51,0,14,41,0,92.0,43,22,10,3,13,8,8,Turner,154,13,Myles Turner (USA),18,210274,/basketballworldcup/2019/player/Myles-Turner,68,61,Center,9242,N/A,5,0,9,USA,Myles Turner
+52,4,0,2,0,11.0,6,2,5,2,8,5,4,Kajami-Keane,25,1,Kaza Kajami-Keane (CAN),2,196171,/basketballworldcup/2019/player/Kaza-Kajami-Keane,1,15,Guard,1529,N/A,2,0,3,CAN,Kaza Kajami-Keane
+53,10,2,21,0,66.0,16,10,14,4,11,10,5,Ejim,122,6,Melvin Ejim (CAN),14,195415,/basketballworldcup/2019/player/Melvin-Ejim,43,42,Forward,7343,N/A,10,0,8,CAN,Melvin Ejim
+54,2,0,4,0,21.0,5,2,18,7,3,3,5,Heslip,61,1,Brady Heslip (CAN),6,192141,/basketballworldcup/2019/player/Brady-Heslip,18,28,Shooting Guard,3663,N/A,0,0,0,CAN,Brady Heslip
+55,24,0,13,0,79.0,45,21,18,8,10,9,5,Joseph,131,4,Cory Joseph (CAN),13,161309,/basketballworldcup/2019/player/Cory-Joseph,25,75,Point Guard,7902,N/A,7,0,9,CAN,Cory Joseph
+56,8,7,15,0,89.0,34,22,4,0,20,14,5,Birch,125,20,Khem Birch (CAN),9,182027,/basketballworldcup/2019/player/Khem-Birch,26,58,Center,7504,N/A,10,0,7,CAN,Khem Birch
+57,5,1,15,0,29.0,10,5,5,0,13,9,5,Klassen,68,8,Owen Klassen (CAN),17,173908,/basketballworldcup/2019/player/Owen-Klassen,-2,19,Center,4092,N/A,0,0,5,CAN,Owen Klassen
+58,26,0,7,0,46.0,23,9,23,7,3,2,5,Pangos,127,2,Kevin Pangos (CAN),11,173524,/basketballworldcup/2019/player/Kevin-Pangos,25,41,Point Guard,7636,N/A,6,0,5,CAN,Kevin Pangos
+59,1,2,5,0,22.0,8,3,9,5,4,4,4,Morgan,44,4,Conor Morgan (CAN),9,196174,/basketballworldcup/2019/player/Conor-Morgan,7,25,Forward,2662,N/A,2,0,8,CAN,Conor Morgan
+60,7,0,5,0,20.0,7,2,6,3,5,3,5,Scrubb,43,3,Thomas Scrubb (CAN),7,217863,/basketballworldcup/2019/player/Thomas-Scrubb,10,16,Forward,2612,N/A,0,0,1,CAN,Thomas Scrubb
+61,5,0,10,0,69.0,21,13,36,15,13,11,5,Wiltjer,116,5,Kyle Wiltjer (CAN),6,181787,/basketballworldcup/2019/player/Kyle-Wiltjer,20,82,Center,6996,N/A,3,0,5,CAN,Kyle Wiltjer
+62,9,0,8,0,30.0,14,5,15,6,2,2,5,Scrubb,85,3,Phil Scrubb (CAN),4,181851,/basketballworldcup/2019/player/Phil-Scrubb,-29,30,Guard,5145,N/A,2,0,4,CAN,Phil Scrubb
+63,12,0,2,0,18.0,6,3,6,2,2,2,5,Nembhard,48,0,Andrew Nembhard (CAN),6,216664,/basketballworldcup/2019/player/Andrew-Nembhard,16,14,Point Guard,2916,N/A,1,0,4,CAN,Andrew Nembhard
+64,5,1,12,0,40.0,11,2,19,8,13,12,5,Benzing,99,3,Robin Benzing (GER),7,151602,/basketballworldcup/2019/player/Robin-Benzing,51,40,Small Forward,5980,N/A,3,0,3,GER,Robin Benzing
+65,1,0,0,0,-3.0,4,1,1,0,0,0,5,Giffey,21,1,Niels Giffey (GER),3,155956,/basketballworldcup/2019/player/Niels-Giffey,-18,2,Small Forward,1278,N/A,0,0,3,GER,Niels Giffey
+66,3,9,9,0,62.0,23,16,18,5,9,9,5,Kleber,116,6,Maximilian Kleber (GER),6,168300,/basketballworldcup/2019/player/Maximilian-Kleber,1,56,Power Forward,6970,N/A,5,0,6,GER,Maximilian Kleber
+67,16,0,13,0,47.0,11,6,12,4,9,6,5,Lo,105,1,Maodo Lo (GER),9,188675,/basketballworldcup/2019/player/Maodo-Lo,32,30,Point Guard,6338,N/A,4,0,1,GER,Maodo Lo
+68,2,0,7,0,15.0,11,3,15,5,0,0,5,Akpinar,95,4,Ismet Akpinar (GER),13,182807,/basketballworldcup/2019/player/Ismet-Akpinar,27,21,Point Guard,5756,N/A,1,0,2,GER,Ismet Akpinar
+69,3,0,2,0,9.0,1,0,5,3,0,0,4,Obst,20,0,Andreas Obst (GER),3,196287,/basketballworldcup/2019/player/Andreas-Obst,2,9,Shooting Guard,1255,N/A,0,0,2,GER,Andreas Obst
+70,47,1,19,3,111.0,49,19,21,10,37,30,5,Schroder,164,4,Dennis Schroder (GER),7,189145,/basketballworldcup/2019/player/Dennis-Schroder,49,98,Point Guard,9845,N/A,7,0,17,GER,Dennis Schroder
+71,1,3,21,0,49.0,30,16,9,1,4,3,5,Theis,88,9,Daniel Theis (GER),16,181996,/basketballworldcup/2019/player/Daniel-Theis,6,38,Power Forward,5325,N/A,6,0,6,GER,Daniel Theis
+72,2,2,15,0,39.0,15,10,7,1,8,5,5,Barthel,86,5,Danilo Barthel (GER),5,174291,/basketballworldcup/2019/player/Danilo-Barthel,46,28,Power Forward,5194,N/A,3,0,2,GER,Danilo Barthel
+73,14,3,19,0,80.0,15,11,18,10,7,5,5,Voigtmann,100,8,Johannes Voigtmann (GER),13,188677,/basketballworldcup/2019/player/Johannes-Voigtmann,27,57,Center,6046,N/A,4,0,11,GER,Johannes Voigtmann
+74,5,1,15,0,30.0,19,6,7,3,4,4,5,Zipser,92,4,Paul Zipser (GER),10,180826,/basketballworldcup/2019/player/Paul-Zipser,-6,25,Small Forward,5550,N/A,4,0,7,GER,Paul Zipser
+75,21,0,9,0,53.0,12,4,18,9,4,3,8,Albicy,154,1,Andrew Albicy (FRA),17,156501,/basketballworldcup/2019/player/Andrew-Albicy,50,38,Point Guard,9294,N/A,10,0,8,FRA,Andrew Albicy
+76,20,1,17,0,71.0,31,16,24,8,9,8,8,Ntilikina,155,4,Frank Ntilikina (FRA),15,211764,/basketballworldcup/2019/player/Frank-Ntilikina,24,64,Point Guard,9352,N/A,8,0,11,FRA,Frank Ntilikina
+77,27,0,10,0,122.0,46,29,31,13,39,35,8,De Colo,189,3,Nando De Colo (FRA),18,154677,/basketballworldcup/2019/player/Nando-De-Colo,47,132,Shooting Guard,11360,N/A,7,0,18,FRA,Nando De Colo
+78,24,1,28,1,115.0,99,42,39,16,36,26,8,Fournier,225,2,Evan Fournier (FRA),20,160364,/basketballworldcup/2019/player/Evan-Fournier,65,158,Shooting Guard,13515,N/A,7,0,15,FRA,Evan Fournier
+79,2,1,7,0,20.0,4,2,7,4,4,2,8,Toupane,61,0,Axel Toupane (FRA),12,188982,/basketballworldcup/2019/player/Axel-Toupane,11,18,Small Forward,3698,N/A,2,0,3,FRA,Axel Toupane
+80,17,8,22,0,71.0,15,10,30,8,10,7,7,Batum,209,3,Nicolas Batum (FRA),11,146596,/basketballworldcup/2019/player/Nicolas-Batum,43,51,Small Forward,12554,N/A,5,0,5,FRA,Nicolas Batum
+81,1,1,10,0,24.0,4,4,4,2,0,0,5,Labeyrie,47,3,Louis Labeyrie (FRA),6,169481,/basketballworldcup/2019/player/Louis-Labeyrie,-12,14,Power Forward,2826,N/A,0,0,3,FRA,Louis Labeyrie
+82,5,2,16,0,54.0,25,14,0,0,12,10,7,Poirier,101,11,Vincent  Poirier (FRA),11,203474,/basketballworldcup/2019/player/Vincent-Poirier,17,38,Center,6105,N/A,1,0,6,FRA,Vincent  Poirier
+83,2,3,7,0,24.0,17,8,0,0,13,7,6,Lessort,72,6,Mathias Lessort (FRA),10,203813,/basketballworldcup/2019/player/Mathias-Lessort,13,23,Center,4334,N/A,0,0,2,FRA,Mathias Lessort
+84,2,2,10,0,44.0,12,7,18,10,4,2,8,M'Baye,144,5,Amath M'Baye (FRA),15,174157,/basketballworldcup/2019/player/Amath-M-Baye,61,46,Forward,8681,N/A,0,0,6,FRA,Amath M'Baye
+85,14,15,55,2,151.0,43,27,0,0,39,27,8,Gobert,209,18,Rudy Gobert (FRA),25,182177,/basketballworldcup/2019/player/Rudy-Gobert,75,81,Center,12575,N/A,5,0,9,FRA,Rudy Gobert
+86,5,1,8,0,22.0,26,10,4,1,2,1,5,Aguilar,104,7,Japeth Aguilar (PHI),11,176657,/basketballworldcup/2019/player/Japeth-Aguilar,-103,24,Power Forward,6283,N/A,0,0,3,PHI,Japeth Aguilar
+87,1,0,2,0,0.0,4,1,0,0,2,1,5,Almazan,26,1,Raymond Almazan (PHI),5,235795,/basketballworldcup/2019/player/Raymond-Almazan,-25,3,Center,1590,N/A,0,0,3,PHI,Raymond Almazan
+88,1,0,2,0,10.0,8,5,5,1,2,2,4,Barroca,45,2,Mark Barroca (PHI),8,192567,/basketballworldcup/2019/player/Mark-Barroca,-37,15,Point Guard,2703,N/A,1,0,4,PHI,Mark Barroca
+89,5,0,3,0,30.0,14,8,18,7,6,6,5,Bolick,71,3,Robert Lee Jr. Bolick (PHI),2,248079,/basketballworldcup/2019/player/Robert-Lee-Jr--Bolick,-53,43,Point Guard,4274,N/A,0,0,7,PHI,Robert Lee Jr. Bolick
+90,2,0,1,0,10.0,12,7,18,3,4,3,5,Dalistan,64,2,Paul John Dalistan (PHI),7,210595,/basketballworldcup/2019/player/Paul-John-Dalistan,-54,26,Shooting Guard,3860,N/A,2,0,2,PHI,Paul John Dalistan
+91,3,2,15,0,48.0,23,11,0,0,16,13,5,Fajardo,85,10,June Mar Fajardo (PHI),8,205438,/basketballworldcup/2019/player/June-Mar-Fajardo,-51,35,Center,5146,N/A,4,0,6,PHI,June Mar Fajardo
+92,6,0,6,0,12.0,3,0,10,2,0,0,5,Norwood,88,3,Gabe Norwood (PHI),11,161601,/basketballworldcup/2019/player/Gabe-Norwood,-95,6,Small Forward,5305,N/A,4,0,2,PHI,Gabe Norwood
+93,13,0,9,0,57.0,31,20,15,5,12,8,5,Perez,96,7,Jaymar Perez (PHI),9,227712,/basketballworldcup/2019/player/Jaymar-Perez,-43,63,Guard,5797,N/A,4,0,14,PHI,Jaymar Perez
+94,4,0,7,0,16.0,12,5,12,3,2,1,5,Pogoy,90,3,Roger Pogoy (PHI),10,224423,/basketballworldcup/2019/player/Roger-Pogoy,-61,20,Shooting Guard,5457,N/A,2,0,3,PHI,Roger Pogoy
+95,1,1,15,0,20.0,11,5,10,1,2,1,5,Rosario,98,8,Troy Rosario (PHI),13,216417,/basketballworldcup/2019/player/Troy-Rosario,-39,14,Small Forward,5891,N/A,0,0,3,PHI,Troy Rosario
+96,17,3,34,3,80.0,43,21,32,9,16,10,5,Blatche,164,8,Andray Blatche (PHI),18,211474,/basketballworldcup/2019/player/Andray-Blatche,-122,79,Center,9870,N/A,12,0,22,PHI,Andray Blatche
+97,8,0,5,0,8.0,12,2,19,4,11,8,5,Ravena,88,2,Kiefer Ravena (PHI),10,216419,/basketballworldcup/2019/player/Kiefer-Ravena,-52,24,Point Guard,5324,N/A,3,0,6,PHI,Kiefer Ravena
+98,5,8,31,2,106.0,41,27,1,0,22,16,5,Valanciunas,113,13,Jonas Valanciunas (LTU),13,160232,/basketballworldcup/2019/player/Jonas-Valanciunas,60,70,Center,6787,N/A,5,0,5,LTU,Jonas Valanciunas
+99,27,0,9,0,62.0,22,14,19,7,2,1,5,Kalnietis,116,1,Mantas Kalnietis (LTU),7,143767,/basketballworldcup/2019/player/Mantas-Kalnietis,53,50,Guard,7017,N/A,3,0,7,LTU,Mantas Kalnietis
+100,6,0,15,0,36.0,9,2,13,5,6,5,5,Maciulis,88,4,Jonas Maciulis (LTU),13,138022,/basketballworldcup/2019/player/Jonas-Maciulis,59,24,Small Forward,5330,N/A,5,0,2,LTU,Jonas Maciulis
+101,4,0,4,0,10.0,13,5,4,1,0,0,5,Seibutis,70,1,Renaldas Seibutis (LTU),7,143050,/basketballworldcup/2019/player/Renaldas-Seibutis,34,13,Point Guard,4212,N/A,0,0,1,LTU,Renaldas Seibutis
+102,9,0,8,0,67.0,28,21,9,3,15,14,5,Lekavicius,88,0,Lukas Lekavicius (LTU),9,183019,/basketballworldcup/2019/player/Lukas-Lekavicius,42,65,Guard,5298,N/A,5,0,6,LTU,Lukas Lekavicius
+103,6,0,8,0,41.0,30,15,12,4,9,9,5,Grigonis,98,1,Marius Grigonis (LTU),11,183013,/basketballworldcup/2019/player/Marius-Grigonis,38,51,Point Guard,5930,N/A,6,0,8,LTU,Marius Grigonis
+104,11,0,13,0,50.0,19,12,7,0,14,12,5,Ulanovas,110,5,Edgaras Ulanovas (LTU),8,168950,/basketballworldcup/2019/player/Edgaras-Ulanovas,28,36,Small Forward,6631,N/A,3,0,2,LTU,Edgaras Ulanovas
+105,1,1,7,0,26.0,20,11,11,3,7,4,5,Kuzminskas,82,8,Mindaugas Kuzminskas (LTU),8,161021,/basketballworldcup/2019/player/Mindaugas-Kuzminskas,45,35,Small Forward,4951,N/A,3,0,9,LTU,Mindaugas Kuzminskas
+106,15,3,12,0,61.0,30,15,1,0,17,12,4,Sabonis,95,13,Domantas Sabonis (LTU),12,181629,/basketballworldcup/2019/player/Domantas-Sabonis,32,42,Center,5716,N/A,1,0,4,LTU,Domantas Sabonis
+107,3,1,8,0,19.0,15,4,3,0,15,14,5,Jankunas,45,1,Paulius Jankunas (LTU),3,138859,/basketballworldcup/2019/player/Paulius-Jankunas,-4,22,Power Forward,2742,N/A,1,0,2,LTU,Paulius Jankunas
+108,3,0,9,0,23.0,7,6,1,0,3,2,5,Butkevicius,51,3,Arnas Butkevicius (LTU),7,181989,/basketballworldcup/2019/player/Arnas-Butkevicius,29,14,Small Forward,3074,N/A,0,0,3,LTU,Arnas Butkevicius
+109,18,5,28,0,73.0,25,12,6,2,15,11,5,Aminu,110,5,Al-Farouq Aminu (NGR),7,194647,/basketballworldcup/2019/player/Al-Farouq-Aminu,37,41,Small Forward,6609,N/A,7,0,10,NGR,Al-Farouq Aminu
+110,4,2,22,0,35.0,21,9,15,3,7,5,5,Diogu,86,7,Ike Diogu (NGR),8,154373,/basketballworldcup/2019/player/Ike-Diogu,18,32,Power Forward,5173,N/A,1,0,7,NGR,Ike Diogu
+111,11,1,5,0,34.0,28,17,3,0,2,0,5,Uzoh,97,3,Ben Uzoh (NGR),7,192751,/basketballworldcup/2019/player/Ben-Uzoh,30,34,Point Guard,5841,N/A,2,0,6,NGR,Ben Uzoh
+112,14,0,11,0,34.0,23,10,15,4,11,9,5,Iroegbu,105,0,Ike Iroegbu (NGR),11,239582,/basketballworldcup/2019/player/Ike-Iroegbu,16,41,Point Guard,6358,N/A,4,0,10,NGR,Ike Iroegbu
+113,10,1,8,0,32.0,8,2,11,7,2,1,5,Okoye,63,1,Stan Okoye (NGR),8,205689,/basketballworldcup/2019/player/Stan-Okoye,23,26,Shooting Guard,3809,N/A,2,0,5,NGR,Stan Okoye
+114,4,1,5,0,12.0,6,1,2,1,4,2,4,Zanna,31,3,Talib Zanna (NGR),3,180917,/basketballworldcup/2019/player/Talib-Zanna,16,7,Power Forward,1919,N/A,3,0,3,NGR,Talib Zanna
+115,2,4,8,0,47.0,19,15,0,0,9,4,4,Eric,51,7,Micheal Eric (NGR),8,195414,/basketballworldcup/2019/player/Micheal-Eric,34,34,Center,3089,N/A,5,0,4,NGR,Micheal Eric
+116,7,6,20,0,65.0,22,11,9,5,8,8,5,Metu,93,8,Chimezie Metu (NGR),8,271056,/basketballworldcup/2019/player/Chimezie-Metu,16,45,Forward,5636,N/A,2,0,8,NGR,Chimezie Metu
+117,4,5,11,0,51.0,23,14,0,0,7,5,5,Udoh,95,7,Ekpe Udoh (NGR),7,193696,/basketballworldcup/2019/player/Ekpe-Udoh,29,33,Power Forward,5710,N/A,4,0,2,NGR,Ekpe Udoh
+118,22,6,16,0,85.0,23,10,19,8,21,19,5,Okogie,120,2,Josh Okogie (NGR),8,236073,/basketballworldcup/2019/player/Josh-Okogie,33,63,Guard,7202,N/A,12,0,10,NGR,Josh Okogie
+119,3,0,5,0,48.0,10,8,30,12,7,5,5,Vincent,93,1,Nnamdi Vincent (NGR),14,271055,/basketballworldcup/2019/player/Nnamdi-Vincent,32,57,Guard,5590,N/A,8,0,4,NGR,Nnamdi Vincent
+120,4,1,21,0,68.0,33,23,0,0,10,6,5,Geramipoor,83,9,Aaron Geramipoor (IRI),12,168556,/basketballworldcup/2019/player/Aaron-Geramipoor,14,52,Center,5013,N/A,3,0,8,IRI,Aaron Geramipoor
+121,3,0,6,0,20.0,12,7,1,0,7,3,4,Hassanzadeh,46,4,Mohammad Hassanzadeh (IRI),7,173565,/basketballworldcup/2019/player/Mohammad-Hassanzadeh,-5,17,Power Forward,2813,N/A,1,0,1,IRI,Mohammad Hassanzadeh
+122,18,1,13,0,47.0,34,16,11,2,12,10,5,Jamshidijafarabadi,135,2,Mohammad Jamshidijafarabadi (IRI),9,173563,/basketballworldcup/2019/player/Mohammad-Jamshidijafarabadi,21,48,Guard,8141,N/A,1,0,7,IRI,Mohammad Jamshidijafarabadi
+123,3,0,10,0,21.0,18,6,5,2,9,5,5,Mashayekhi,98,8,Sajjad Mashayekhi (IRI),15,182909,/basketballworldcup/2019/player/Sajjad-Mashayekhi,9,23,Point Guard,5916,N/A,4,0,8,IRI,Sajjad Mashayekhi
+124,5,0,1,0,13.0,4,2,2,1,6,5,4,Mozafarivanani,30,2,Rasoul Mozafarivanani (IRI),1,203155,/basketballworldcup/2019/player/Rasoul-Mozafarivanani,6,12,Guard,1839,N/A,2,0,5,IRI,Rasoul Mozafarivanani
+125,14,1,11,0,50.0,30,9,20,10,18,15,5,Nik Khahbahrami,137,3,Mohammadsamad Nik Khahbahrami (IRI),10,161226,/basketballworldcup/2019/player/Mohammadsamad-Nik-Khahbahrami,-6,63,Small Forward,8233,N/A,1,0,9,IRI,Mohammadsamad Nik Khahbahrami
+126,2,0,10,0,26.0,6,3,10,3,8,5,5,Rostampour,82,3,Michael Rostampour (IRI),10,223273,/basketballworldcup/2019/player/Michael-Rostampour,8,20,Power Forward,4957,N/A,6,0,2,IRI,Michael Rostampour
+127,1,2,5,0,10.0,6,2,5,2,2,1,4,Zangeneh,44,0,Arman Zangeneh (IRI),7,182915,/basketballworldcup/2019/player/Arman-Zangeneh,-3,11,Power Forward,2681,N/A,2,0,3,IRI,Arman Zangeneh
+128,22,6,42,3,97.0,52,24,7,4,21,13,5,Haddadi,151,12,Hamed Haddadi (IRI),15,142957,/basketballworldcup/2019/player/Hamed-Haddadi,-10,73,Center,9082,N/A,3,0,22,IRI,Hamed Haddadi
+129,15,1,11,0,71.0,16,9,25,12,7,6,5,Yakhchalidehkordi,176,3,Behnam Yakhchalidehkordi (IRI),4,197007,/basketballworldcup/2019/player/Behnam-Yakhchalidehkordi,-5,60,Guard,10616,N/A,9,0,7,IRI,Behnam Yakhchalidehkordi
+130,10,0,7,0,19.0,18,6,16,5,9,8,4,Domingos,102,3,Gerson Domingos (ANG),6,190129,/basketballworldcup/2019/player/Gerson-Domingos,-52,35,Guard,6129,N/A,1,0,13,ANG,Gerson Domingos
+131,5,1,4,0,9.0,7,3,9,2,0,0,4,Conceicao,72,0,Jaques Conceicao (ANG),9,235341,/basketballworldcup/2019/player/Jaques-Conceicao,-21,12,Guard,4330,N/A,1,0,3,ANG,Jaques Conceicao
+132,12,1,9,0,42.0,38,17,21,8,8,5,5,Morais,155,3,Carlos Morais (ANG),9,143439,/basketballworldcup/2019/player/Carlos-Morais,-69,63,Guard,9337,N/A,4,0,13,ANG,Carlos Morais
+133,3,1,5,0,24.0,8,3,13,5,8,6,5,Antonio,92,2,Jose Antonio (ANG),12,257869,/basketballworldcup/2019/player/Jose-Antonio,-44,27,Small Forward,5549,N/A,5,0,4,ANG,Jose Antonio
+134,10,2,12,0,54.0,20,14,3,1,16,11,5,Paulo,99,3,Leonel Paulo (ANG),15,152903,/basketballworldcup/2019/player/Leonel-Paulo,-42,42,Forward,5959,N/A,3,0,5,ANG,Leonel Paulo
+135,8,1,4,0,9.0,14,5,8,1,4,3,5,Goncalves,70,1,Jerson Goncalves (ANG),6,212144,/basketballworldcup/2019/player/Jerson-Goncalves,-23,16,Guard,4203,N/A,2,0,6,ANG,Jerson Goncalves
+136,6,0,17,0,28.0,8,1,17,8,4,1,5,Moore,114,2,Reggie Moore (ANG),11,144839,/basketballworldcup/2019/player/Reggie-Moore,-52,27,Power Forward,6850,N/A,1,0,6,ANG,Reggie Moore
+137,3,1,27,1,79.0,48,26,0,0,11,8,5,Moreira,136,16,Yanick Moreira (ANG),17,170555,/basketballworldcup/2019/player/Yanick-Moreira,-40,60,Center,8188,N/A,5,0,8,ANG,Yanick Moreira
+138,2,4,20,0,62.0,32,16,8,5,14,11,5,Joaquim,117,5,Valdélicio Joaquim (ANG),16,156816,/basketballworldcup/2019/player/Valdélicio-Joaquim,-40,58,Center,7053,N/A,4,0,9,ANG,Valdélicio Joaquim
+139,12,3,39,2,100.0,37,22,9,2,34,24,5,Antetokounmpo,124,5,Giannis  Antetokounmpo (GRE),18,195895,/basketballworldcup/2019/player/Giannis-Antetokounmpo,31,74,Small Forward,7473,N/A,12,0,13,GRE,Giannis  Antetokounmpo
+140,5,2,4,0,29.0,14,9,8,3,6,3,5,Antetokounmpo,62,3,Thanasis Antetokounmpo (GRE),14,207432,/basketballworldcup/2019/player/Thanasis-Antetokounmpo,2,30,Power Forward,3748,N/A,2,0,4,GRE,Thanasis Antetokounmpo
+141,27,0,19,0,79.0,31,17,24,10,7,3,5,Calathes,143,3,Nick Calathes (GRE),13,168709,/basketballworldcup/2019/player/Nick-Calathes,27,67,Point Guard,8596,N/A,8,0,13,GRE,Nick Calathes
+142,5,1,2,0,20.0,3,3,6,2,7,6,4,Larentzakis,38,0,Giannoulis Larentzakis (GRE),6,189366,/basketballworldcup/2019/player/Giannoulis-Larentzakis,-2,18,Shooting Guard,2288,N/A,3,0,4,GRE,Giannoulis Larentzakis
+143,5,0,14,0,34.0,9,4,11,4,4,4,5,Bourousis,84,5,Ioannis Bourousis (GRE),11,140650,/basketballworldcup/2019/player/Ioannis-Bourousis,-5,24,Center,5050,N/A,3,0,5,GRE,Ioannis Bourousis
+144,1,4,10,0,30.0,17,9,0,0,1,1,4,Papagiannis,44,3,Georgios Papagiannis (GRE),7,190029,/basketballworldcup/2019/player/Georgios-Papagiannis,16,19,Center,2696,N/A,2,0,1,GRE,Georgios Papagiannis
+145,7,5,12,0,34.0,11,3,14,2,7,7,5,Papanikolaou,115,8,Kostas Papanikolaou (GRE),12,156235,/basketballworldcup/2019/player/Kostas-Papanikolaou,9,19,Small Forward,6949,N/A,3,0,0,GRE,Kostas Papanikolaou
+146,2,1,11,0,36.0,15,8,18,6,5,3,5,Papapetrou,112,5,Ioannis Papapetrou (GRE),4,175605,/basketballworldcup/2019/player/Ioannis-Papapetrou,-1,37,Small Forward,6776,N/A,4,0,3,GRE,Ioannis Papapetrou
+147,10,0,10,0,53.0,30,14,14,7,17,12,5,Printezis,109,1,Georgios Printezis (GRE),4,138279,/basketballworldcup/2019/player/Georgios-Printezis,1,61,Power Forward,6558,N/A,2,0,3,GRE,Georgios Printezis
+148,23,0,11,0,54.0,24,12,18,5,13,10,5,Sloukas,127,1,Kostas Sloukas (GRE),9,156238,/basketballworldcup/2019/player/Kostas-Sloukas,17,49,Point Guard,7653,N/A,2,0,4,GRE,Kostas Sloukas
+149,3,1,10,0,34.0,10,8,13,4,4,4,4,Abass,83,2,Awudu Abass (ITA),5,188605,/basketballworldcup/2019/player/Awudu-Abass,-3,32,Forward,5033,N/A,3,0,6,ITA,Awudu Abass
+150,16,0,17,0,66.0,33,15,27,9,25,18,5,Belinelli,145,3,Marco Belinelli (ITA),8,144192,/basketballworldcup/2019/player/Marco-Belinelli,58,75,Shooting Guard,8706,N/A,6,0,8,ITA,Marco Belinelli
+151,1,3,8,0,35.0,21,12,0,0,8,3,5,Biligha,95,8,Paul Biligha (ITA),11,181650,/basketballworldcup/2019/player/Paul-Biligha,22,27,Center,5745,N/A,4,0,2,ITA,Paul Biligha
+152,5,6,12,1,52.0,10,7,6,2,3,2,5,Brooks,85,9,Jeff Brooks (ITA),12,192665,/basketballworldcup/2019/player/Jeff-Brooks,58,22,Forward,5110,N/A,8,0,2,ITA,Jeff Brooks
+153,8,3,10,0,50.0,15,10,12,6,5,4,4,Datome,90,1,Luigi Datome (ITA),11,141145,/basketballworldcup/2019/player/Luigi-Datome,43,42,Power Forward,5418,N/A,3,0,5,ITA,Luigi Datome
+154,6,0,5,0,25.0,9,5,17,5,6,6,5,Della Valle,53,1,Amedeo Della Valle (ITA),3,175965,/basketballworldcup/2019/player/Amedeo-Della-Valle,9,31,Point Guard,3181,N/A,3,0,5,ITA,Amedeo Della Valle
+155,6,1,0,0,0.0,3,1,2,0,0,0,4,Vitali,34,0,Luca Vitali (ITA),5,144219,/basketballworldcup/2019/player/Luca-Vitali,13,2,Point Guard,2058,N/A,0,0,5,ITA,Luca Vitali
+156,14,2,22,0,101.0,25,14,24,12,28,22,5,Gallinari,149,6,Danilo Gallinari (ITA),8,146646,/basketballworldcup/2019/player/Danilo-Gallinari,54,86,Power Forward,8940,N/A,5,0,5,ITA,Danilo Gallinari
+157,14,0,23,0,41.0,13,4,19,6,20,13,5,Hackett,121,1,Daniel Hackett (ITA),11,141158,/basketballworldcup/2019/player/Daniel-Hackett,24,39,Guard,7285,N/A,6,0,13,ITA,Daniel Hackett
+158,3,3,8,0,40.0,19,14,1,0,6,4,5,Tessitori,48,4,Amedeo Tessitori (ITA),9,183173,/basketballworldcup/2019/player/Amedeo-Tessitori,20,32,Power Forward,2889,N/A,0,0,2,ITA,Amedeo Tessitori
+159,7,0,8,0,19.0,21,5,4,3,18,11,4,Gentile,75,3,Alessandro Gentile (ITA),6,169443,/basketballworldcup/2019/player/Alessandro-Gentile,-18,30,Point Guard,4542,N/A,1,0,6,ITA,Alessandro Gentile
+160,1,3,18,0,48.0,28,14,0,0,17,12,5,Wang,102,7,Zhelin Wang (CHN),17,181272,/basketballworldcup/2019/player/Zhelin-Wang,-14,40,Center,6174,N/A,3,0,5,CHN,Zhelin Wang
+161,6,7,32,1,66.0,24,15,10,3,15,6,5,Zhou,133,6,Qi Zhou (CHN),16,195577,/basketballworldcup/2019/player/Qi-Zhou,2,45,Center,8016,N/A,4,0,9,CHN,Qi Zhou
+162,0,0,1,0,4.0,2,1,3,1,2,2,4,Abudurexiti,22,1,Abudushalamu Abudurexiti (CHN),4,228340,/basketballworldcup/2019/player/Abudushalamu-Abudurexiti,-19,7,Forward,1346,N/A,1,0,3,CHN,Abudushalamu Abudurexiti
+163,9,0,5,0,25.0,16,7,14,3,9,7,5,Zhao,117,2,Rui Zhao (CHN),12,203290,/basketballworldcup/2019/player/Rui-Zhao,-10,30,Guard,7043,N/A,5,0,4,CHN,Rui Zhao
+164,6,3,30,0,86.0,46,26,14,5,36,22,5,Yi,138,9,Jianlian Yi (CHN),12,143295,/basketballworldcup/2019/player/Jianlian-Yi,2,89,Center,8284,N/A,5,0,13,CHN,Jianlian Yi
+165,14,0,8,0,33.0,7,2,13,4,8,7,5,Zhao,115,0,Jiwei Zhao (CHN),8,195576,/basketballworldcup/2019/player/Jiwei-Zhao,10,23,Point Guard,6958,N/A,7,0,4,CHN,Jiwei Zhao
+166,11,0,2,0,16.0,10,4,6,1,3,1,4,Sun,52,2,Minghui Sun (CHN),6,212206,/basketballworldcup/2019/player/Minghui-Sun,-6,12,Guard,3176,N/A,4,0,2,CHN,Minghui Sun
+167,19,0,3,0,32.0,34,14,16,3,8,5,5,Guo,106,4,Ailun Guo (CHN),12,181269,/basketballworldcup/2019/player/Ailun-Guo,29,42,Guard,6394,N/A,6,0,6,CHN,Ailun Guo
+168,8,0,7,0,34.0,11,7,24,7,4,4,5,Fang,107,1,Shuo Fang (CHN),10,227793,/basketballworldcup/2019/player/Shuo-Fang,-43,39,Guard,6470,N/A,6,0,6,CHN,Shuo Fang
+169,1,1,10,0,35.0,16,12,3,0,3,2,5,Zhai,103,6,Xiaochuan Zhai (CHN),9,181268,/basketballworldcup/2019/player/Xiaochuan-Zhai,2,26,Forward,6199,N/A,3,0,4,CHN,Xiaochuan Zhai
+170,25,1,3,1,41.0,8,5,35,11,3,2,5,Needham,129,0,Derek Needham (MNE),14,208614,/basketballworldcup/2019/player/Derek-Needham,-10,45,Point Guard,7747,N/A,7,0,12,MNE,Derek Needham
+171,15,1,6,0,46.0,17,11,19,6,8,7,4,Ivanovic,91,1,Nikola Ivanovic (MNE),12,169357,/basketballworldcup/2019/player/Nikola-Ivanovic,-21,47,Point Guard,5496,N/A,5,0,9,MNE,Nikola Ivanovic
+172,15,1,8,0,39.0,33,16,19,4,2,2,5,Popovic,141,2,Petar Popovic (MNE),12,196760,/basketballworldcup/2019/player/Petar-Popovic,7,46,Shooting Guard,8515,N/A,5,0,6,MNE,Petar Popovic
+173,2,0,1,0,2.0,4,2,2,0,2,1,4,Popovic,26,0,Aleksa Popovic (MNE),3,159926,/basketballworldcup/2019/player/Aleksa-Popovic,-22,5,Small Forward,1602,N/A,0,0,1,MNE,Aleksa Popovic
+174,2,0,8,0,20.0,1,0,18,6,3,3,5,Sehovic,98,4,Suad Sehovic (MNE),9,143186,/basketballworldcup/2019/player/Suad-Sehovic,-42,21,Forward,5886,N/A,1,0,3,MNE,Suad Sehovic
+175,1,0,4,0,3.0,7,2,2,0,5,3,5,Sehovic,30,1,Sead Sehovic (MNE),3,148567,/basketballworldcup/2019/player/Sead-Sehovic,-21,7,Small Forward,1807,N/A,1,0,2,MNE,Sead Sehovic
+176,1,3,10,0,40.0,24,14,13,3,2,2,5,Bjelica,83,5,Milko Bjelica (MNE),10,143691,/basketballworldcup/2019/player/Milko-Bjelica,-4,39,Power Forward,5019,N/A,4,0,2,MNE,Milko Bjelica
+177,6,3,29,0,74.0,53,26,10,4,12,9,5,Vucevic,118,3,Nikola Vucevic (MNE),6,168970,/basketballworldcup/2019/player/Nikola-Vucevic,-12,73,Center,7130,N/A,4,0,8,MNE,Nikola Vucevic
+178,13,0,23,1,67.0,12,6,22,8,18,14,5,Dubljevic,128,13,Bojan Dubljevic (MNE),14,168214,/basketballworldcup/2019/player/Bojan-Dubljevic,-27,50,Power Forward,7719,N/A,7,0,15,MNE,Bojan Dubljevic
+179,2,3,5,0,20.0,9,4,1,0,7,5,5,Todorovic,53,2,Marko Todorovic (MNE),11,169356,/basketballworldcup/2019/player/Marko-Todorovic,-37,13,Center,3215,N/A,6,0,3,MNE,Marko Todorovic
+180,3,5,14,0,37.0,12,8,4,1,4,1,5,Radoncic,82,8,Dino Radoncic (MNE),9,209235,/basketballworldcup/2019/player/Dino-Radoncic,1,20,Forward,4956,N/A,2,0,5,MNE,Dino Radoncic
+181,12,0,12,0,49.0,28,13,12,4,15,12,5,Garcia,111,2,Alex Garcia (BRA),11,141586,/basketballworldcup/2019/player/Alex-Garcia,6,50,Small Forward,6709,N/A,8,0,9,BRA,Alex Garcia
+182,9,0,32,0,78.0,36,21,1,0,9,8,5,Varejao,111,3,Anderson Varejao (BRA),8,139913,/basketballworldcup/2019/player/Anderson-Varejao,21,50,Center,6701,N/A,3,0,2,BRA,Anderson Varejao
+183,6,6,22,0,45.0,15,6,16,5,2,1,5,Caboclo,133,4,Bruno Caboclo (BRA),12,203070,/basketballworldcup/2019/player/Bruno-Caboclo,-9,28,Forward,8017,N/A,5,0,5,BRA,Bruno Caboclo
+184,7,1,12,0,53.0,22,13,0,0,6,5,5,Felicio,80,16,Cristiano Felicio (BRA),6,177657,/basketballworldcup/2019/player/Cristiano-Felicio,-48,31,Center,4812,N/A,2,0,6,BRA,Cristiano Felicio
+185,11,1,8,0,48.0,45,20,11,4,19,16,5,Barbosa,113,0,Leandrinho Barbosa (BRA),10,141587,/basketballworldcup/2019/player/Leandrinho-Barbosa,-10,68,Small Forward,6807,N/A,3,0,8,BRA,Leandrinho Barbosa
+186,24,0,8,0,47.0,29,13,9,3,3,3,5,Huertas,91,2,Marcelinho Huertas (BRA),7,147079,/basketballworldcup/2019/player/Marcelinho-Huertas,1,38,Point Guard,5491,N/A,2,0,5,BRA,Marcelinho Huertas
+187,3,1,8,0,17.0,7,1,6,2,4,3,5,Louzada,46,1,Didi Louzada (BRA),5,213794,/basketballworldcup/2019/player/Didi-Louzada,-20,11,Shooting Guard,2788,N/A,4,0,0,BRA,Didi Louzada
+188,2,0,8,0,45.0,16,11,21,8,6,5,5,Sousa,96,2,Marquinhos Sousa (BRA),7,141831,/basketballworldcup/2019/player/Marquinhos-Sousa,-5,51,Small Forward,5766,N/A,5,0,4,BRA,Marquinhos Sousa
+189,3,0,6,0,29.0,14,2,22,11,15,11,5,Benite,90,2,Vítor Benite (BRA),12,157782,/basketballworldcup/2019/player/Vítor-Benite,-16,48,Shooting Guard,5439,N/A,1,0,4,BRA,Vítor Benite
+190,15,1,8,0,39.0,14,9,10,2,5,5,5,Luz,99,3,Rafa Luz (BRA),11,157773,/basketballworldcup/2019/player/Rafa-Luz,6,29,Point Guard,5958,N/A,4,0,8,BRA,Rafa Luz
+191,18,1,8,0,38.0,15,11,3,0,10,4,5,Park,86,2,Chan Hee Park (KOR),5,192449,/basketballworldcup/2019/player/Chan-Hee-Park,-27,26,Guard,5184,N/A,7,0,11,KOR,Chan Hee Park
+192,19,0,10,0,23.0,31,7,19,4,9,7,5,Kim,121,5,Sunhyung Kim (KOR),7,161287,/basketballworldcup/2019/player/Sunhyung-Kim,-47,33,Guard,7295,N/A,4,0,7,KOR,Sunhyung Kim
+193,6,4,8,0,17.0,4,1,11,3,6,3,5,Choi,83,4,Junyong Choi (KOR),10,197028,/basketballworldcup/2019/player/Junyong-Choi,-33,14,Forward,4991,N/A,0,0,5,KOR,Junyong Choi
+194,16,1,15,0,37.0,7,3,28,9,10,7,4,Lee,103,1,Junghyun Lee (KOR),13,192453,/basketballworldcup/2019/player/Junghyun-Lee,-62,40,Guard,6231,N/A,1,0,11,KOR,Junghyun Lee
+195,4,0,1,0,13.0,11,3,9,4,4,3,5,Heo,44,1,Hoon Heo (KOR),2,195608,/basketballworldcup/2019/player/Hoon-Heo,2,21,Guard,2666,N/A,2,0,2,KOR,Hoon Heo
+196,9,6,38,5,132.0,84,42,7,3,33,22,5,RA,180,26,Guna RA (KOR),9,199177,/basketballworldcup/2019/player/Guna-RA,-71,115,Center,10838,N/A,7,0,12,KOR,Guna RA
+197,6,1,9,0,18.0,1,0,9,2,2,2,4,Yang,55,2,Heejong Yang (KOR),10,143508,/basketballworldcup/2019/player/Heejong-Yang,4,8,Forward,3329,N/A,3,0,3,KOR,Heejong Yang
+198,0,0,7,0,14.0,4,3,4,2,0,0,5,Kang,48,1,Sangjae Kang (KOR),3,197030,/basketballworldcup/2019/player/Sangjae-Kang,0,12,Center,2922,N/A,0,0,3,KOR,Sangjae Kang
+199,7,2,19,0,48.0,23,13,16,5,6,5,5,Lee,145,5,Seounghyun Lee (KOR),7,181058,/basketballworldcup/2019/player/Seounghyun-Lee,-61,46,Center,8717,N/A,1,0,10,KOR,Seounghyun Lee
+200,1,1,8,0,9.0,8,2,10,2,2,2,4,Jeong,58,1,Hyogeun Jeong (KOR),4,188688,/basketballworldcup/2019/player/Hyogeun-Jeong,-39,12,Forward,3532,N/A,1,0,1,KOR,Hyogeun Jeong
+201,8,0,7,0,29.0,17,4,30,11,12,12,5,Kulagin,104,0,Mikhail Kulagin (RUS),11,183348,/basketballworldcup/2019/player/Mikhail-Kulagin,19,53,Point Guard,6284,N/A,3,0,10,RUS,Mikhail Kulagin
+202,2,1,2,0,15.0,7,4,0,0,4,2,4,Valiev,30,4,Evgeny Valiev (RUS),3,156392,/basketballworldcup/2019/player/Evgeny-Valiev,4,10,Power Forward,1817,N/A,1,0,0,RUS,Evgeny Valiev
+203,18,1,26,0,66.0,23,12,9,3,23,15,5,Kurbanov,138,5,Nikita Kurbanov (RUS),17,143953,/basketballworldcup/2019/player/Nikita-Kurbanov,26,48,Small Forward,8297,N/A,2,0,9,RUS,Nikita Kurbanov
+204,12,6,16,0,53.0,30,16,12,2,11,9,5,Zubkov,114,5,Andrey Zubkov (RUS),14,188754,/basketballworldcup/2019/player/Andrey-Zubkov,-11,47,Power Forward,6864,N/A,3,0,10,RUS,Andrey Zubkov
+205,6,0,5,0,19.0,6,2,9,3,9,7,5,Karasev,66,1,Sergey Karasev (RUS),7,169041,/basketballworldcup/2019/player/Sergey-Karasev,-19,20,Shooting Guard,4013,N/A,5,0,6,RUS,Sergey Karasev
+206,5,2,13,0,37.0,16,10,7,0,14,10,5,Antonov,66,6,Semen Antonov (RUS),5,160983,/basketballworldcup/2019/player/Semen-Antonov,-32,30,Power Forward,4005,N/A,2,0,4,RUS,Semen Antonov
+207,7,0,3,0,24.0,0,0,9,4,2,1,5,Baburin,52,6,Evgenii Baburin (RUS),14,192410,/basketballworldcup/2019/player/Evgenii-Baburin,6,13,Point Guard,3127,N/A,3,0,2,RUS,Evgenii Baburin
+208,14,2,29,1,92.0,23,14,20,8,13,12,5,Vorontsevich,139,6,Andrey Vorontsevich (RUS),13,154625,/basketballworldcup/2019/player/Andrey-Vorontsevich,44,64,Power Forward,8372,N/A,4,0,5,RUS,Andrey Vorontsevich
+209,9,0,8,0,33.0,23,10,10,3,7,4,5,Fridzon,114,4,Vitaly Fridzon (RUS),11,147215,/basketballworldcup/2019/player/Vitaly-Fridzon,8,33,Shooting Guard,6883,N/A,8,0,6,RUS,Vitaly Fridzon
+210,2,0,9,0,30.0,14,8,1,1,6,4,5,Ivlev,74,4,Vladimir Ivlev (RUS),14,160971,/basketballworldcup/2019/player/Vladimir-Ivlev,32,23,Center,4488,N/A,3,0,3,RUS,Vladimir Ivlev
+211,4,0,1,0,9.0,3,3,4,1,0,0,4,Sopin,24,0,Andrei Sopin (RUS),4,204933,/basketballworldcup/2019/player/Andrei-Sopin,-5,9,Point Guard,1495,N/A,1,0,3,RUS,Andrei Sopin
+212,6,0,5,0,6.0,15,7,10,2,7,3,5,Motovilov,72,0,Grigory Motovilov (RUS),8,225989,/basketballworldcup/2019/player/Grigory-Motovilov,3,23,Point Guard,4355,N/A,2,0,10,RUS,Grigory Motovilov
+213,23,0,14,0,48.0,41,17,13,2,5,5,5,Browne,120,4,Gary Browne (PUR),9,173533,/basketballworldcup/2019/player/Gary-Browne,-17,45,Guard,7223,N/A,5,0,8,PUR,Gary Browne
+214,12,0,9,0,27.0,18,6,13,3,14,12,5,Rodriguez,84,5,Angel Rodriguez (PUR),14,176310,/basketballworldcup/2019/player/Angel-Rodriguez,-34,33,Point Guard,5078,N/A,5,0,13,PUR,Angel Rodriguez
+215,7,0,11,0,26.0,19,6,22,5,12,9,5,Clavell,93,5,Gian Clavell (PUR),4,235537,/basketballworldcup/2019/player/Gian-Clavell,-32,36,Guard,5602,N/A,3,0,3,PUR,Gian Clavell
+216,10,1,8,0,53.0,32,17,25,10,8,7,5,Huertas,132,1,David Huertas (PUR),10,143411,/basketballworldcup/2019/player/David-Huertas,-28,71,Shooting Guard,7924,N/A,1,0,8,PUR,David Huertas
+217,1,1,6,0,11.0,14,4,4,0,2,2,5,Mojica,38,3,Javier Mojica (PUR),4,167559,/basketballworldcup/2019/player/Javier-Mojica,7,10,Guard,2322,N/A,4,0,0,PUR,Javier Mojica
+218,3,0,9,0,17.0,10,4,3,1,0,0,5,Franklin,73,4,Alexander Franklin (PUR),10,186817,/basketballworldcup/2019/player/Alexander-Franklin,-30,11,Forward,4416,N/A,1,0,3,PUR,Alexander Franklin
+219,0,0,10,0,15.0,8,5,6,1,3,3,5,Clemente,65,5,Ramon Clemente (PUR),5,178219,/basketballworldcup/2019/player/Ramon-Clemente,-5,16,Power Forward,3906,N/A,1,0,9,PUR,Ramon Clemente
+220,2,1,13,0,36.0,26,13,1,0,4,3,5,Collier,110,7,Devon Collier (PUR),12,192062,/basketballworldcup/2019/player/Devon-Collier,-2,29,Forward,6640,N/A,2,0,3,PUR,Devon Collier
+221,3,0,10,0,34.0,20,10,6,1,8,7,5,Pineiro,81,4,Isaiah Pineiro (PUR),10,269853,/basketballworldcup/2019/player/Isaiah-Pineiro,-33,30,Forward,4873,N/A,5,0,2,PUR,Isaiah Pineiro
+222,10,7,16,0,46.0,40,16,6,0,18,13,5,Balkman,141,10,Renaldo Balkman (PUR),14,182309,/basketballworldcup/2019/player/Renaldo-Balkman,-43,45,Power Forward,8462,N/A,7,0,14,PUR,Renaldo Balkman
+223,2,3,11,0,23.0,17,7,4,2,2,1,5,Díaz,68,3,Jorge Bryan Díaz (PUR),11,153295,/basketballworldcup/2019/player/Jorge-Bryan-Díaz,-31,21,Center,4108,N/A,1,0,5,PUR,Jorge Bryan Díaz
+224,19,2,19,1,89.0,34,19,15,6,19,9,5,Ben Romdhane,140,17,Makram Ben Romdhane (TUN),16,171574,/basketballworldcup/2019/player/Makram-Ben-Romdhane,30,65,Power Forward,8446,N/A,9,0,8,TUN,Makram Ben Romdhane
+225,22,0,12,0,69.0,23,12,15,4,20,17,5,Abada,157,2,Omar Abada (TUN),8,184221,/basketballworldcup/2019/player/Omar-Abada,9,53,Point Guard,9458,N/A,13,0,8,TUN,Omar Abada
+226,12,16,38,2,126.0,38,24,19,7,14,12,5,Mejri,154,13,Salah Mejri (TUN),14,161521,/basketballworldcup/2019/player/Salah-Mejri,5,81,Center,9279,N/A,5,0,11,TUN,Salah Mejri
+227,2,0,1,0,3.0,2,1,5,2,0,0,4,Knioua,42,0,Nizar Knioua (TUN),4,158479,/basketballworldcup/2019/player/Nizar-Knioua,-18,8,Point Guard,2542,N/A,1,0,5,TUN,Nizar Knioua
+228,12,1,6,0,28.0,15,7,25,6,5,4,5,El Mabrouk,143,4,Mourad El Mabrouk (TUN),5,148550,/basketballworldcup/2019/player/Mourad-El-Mabrouk,24,36,Shooting Guard,8612,N/A,1,0,4,TUN,Mourad El Mabrouk
+229,3,0,0,0,1.0,9,2,5,1,2,1,5,Chennoufi,55,2,Ziyed Chennoufi (TUN),8,154782,/basketballworldcup/2019/player/Ziyed-Chennoufi,-42,8,Shooting Guard,3354,N/A,2,0,2,TUN,Ziyed Chennoufi
+230,19,0,9,0,64.0,39,21,24,8,6,5,5,Roll,163,2,Michael Roll (TUN),12,185990,/basketballworldcup/2019/player/Michael-Roll,19,71,Shooting Guard,9836,N/A,5,0,7,TUN,Michael Roll
+231,3,1,11,0,35.0,16,8,11,6,4,2,5,Hadidane,76,2,Mohamed Hadidane (TUN),6,148549,/basketballworldcup/2019/player/Mohamed-Hadidane,-30,36,Power Forward,4588,N/A,0,0,3,TUN,Mohamed Hadidane
+232,6,0,5,0,5.0,18,7,10,2,4,2,5,Hiejima,90,1,Makoto Hiejima (JPN),11,181087,/basketballworldcup/2019/player/Makoto-Hiejima,-58,22,Shooting Guard,5417,N/A,3,0,11,JPN,Makoto Hiejima
+233,4,0,8,0,15.0,10,3,4,1,10,7,5,Takeuchi,91,4,Joji Takeuchi (JPN),4,156006,/basketballworldcup/2019/player/Joji-Takeuchi,-63,16,Power Forward,5512,N/A,1,0,5,JPN,Joji Takeuchi
+234,8,2,23,0,81.0,43,23,13,2,28,26,5,Watanabe,161,5,Yuta Watanabe (JPN),9,205382,/basketballworldcup/2019/player/Yuta-Watanabe,-114,78,Small Forward,9708,N/A,4,0,6,JPN,Yuta Watanabe
+235,0,0,4,0,-1.0,2,1,11,1,0,0,4,Ando,29,1,Shuto Ando (JPN),1,262921,/basketballworldcup/2019/player/Shuto-Ando,-11,5,Shooting Guard,1773,N/A,2,0,2,JPN,Shuto Ando
+236,15,0,11,0,40.0,32,13,13,4,13,8,5,Baba,127,2,Yudai Baba (JPN),11,220445,/basketballworldcup/2019/player/Yudai-Baba,-80,46,Small Forward,7651,N/A,7,0,8,JPN,Yudai Baba
+237,9,0,3,0,21.0,18,6,14,5,6,4,5,Tanaka,114,2,Daiki Tanaka (JPN),7,181193,/basketballworldcup/2019/player/Daiki-Tanaka,-77,31,Shooting Guard,6879,N/A,6,0,7,JPN,Daiki Tanaka
+238,6,1,26,1,78.0,42,19,16,9,11,7,5,Fazekas,137,11,Nick Fazekas (JPN),8,152307,/basketballworldcup/2019/player/Nick-Fazekas,-94,72,Center,8273,N/A,5,0,9,JPN,Nick Fazekas
+239,19,1,24,0,105.0,54,25,47,20,15,12,8,Bohacik,242,8,Jaromir Bohacik (CZE),25,168674,/basketballworldcup/2019/player/Jaromir-Bohacik,5,122,Forward,14558,N/A,2,0,12,CZE,Jaromir Bohacik
+240,16,2,24,1,96.0,43,25,37,12,5,5,8,Hruban,227,12,Vojtech Hruban (CZE),21,155176,/basketballworldcup/2019/player/Vojtech-Hruban,-2,91,Forward,13627,N/A,6,0,12,CZE,Vojtech Hruban
+241,5,0,20,0,80.0,53,30,8,4,26,19,8,Auda,173,8,Patrik Auda (CZE),28,174138,/basketballworldcup/2019/player/Patrik-Auda,40,91,Center,10405,N/A,5,0,15,CZE,Patrik Auda
+242,5,0,6,0,23.0,22,10,5,0,0,0,8,Kriz,88,10,Martin Kriz (CZE),6,168740,/basketballworldcup/2019/player/Martin-Kriz,-18,20,Center,5335,N/A,3,0,4,CZE,Martin Kriz
+243,3,0,4,0,11.0,0,0,6,2,0,0,4,Palyza,17,2,Lukas Palyza (CZE),3,151565,/basketballworldcup/2019/player/Lukas-Palyza,11,6,Small Forward,1042,N/A,1,0,1,CZE,Lukas Palyza
+244,7,1,10,0,56.0,16,9,15,9,2,2,8,Peterka,91,7,Martin Peterka (CZE),2,183205,/basketballworldcup/2019/player/Martin-Peterka,6,47,Center,5467,N/A,2,0,5,CZE,Martin Peterka
+245,11,10,53,3,121.0,49,28,2,1,22,14,8,Balvín,210,14,Ondrej Balvín (CZE),20,168670,/basketballworldcup/2019/player/Ondrej-Balvín,-6,73,Center,12644,N/A,5,0,15,CZE,Ondrej Balvín
+246,12,2,16,0,43.0,33,14,3,1,13,6,8,Pumprla,137,3,Pavel Pumprla (CZE),11,150649,/basketballworldcup/2019/player/Pavel-Pumprla,1,37,Forward,8258,N/A,5,0,4,CZE,Pavel Pumprla
+247,68,3,39,2,172.0,65,29,27,13,30,27,8,Satoransky,265,6,Tomas Satoransky (CZE),14,156277,/basketballworldcup/2019/player/Tomas-Satoransky,15,124,Point Guard,15919,N/A,7,0,22,CZE,Tomas Satoransky
+248,14,1,8,0,55.0,11,5,17,11,2,1,6,Schilb,102,0,Blake Schilb (CZE),2,163142,/basketballworldcup/2019/player/Blake-Schilb,9,44,Forward,6173,N/A,4,0,3,CZE,Blake Schilb
+249,9,0,0,0,6.0,3,1,4,1,4,2,6,Sirina,32,0,Jakub Sirina (CZE),6,150912,/basketballworldcup/2019/player/Jakub-Sirina,-13,7,Point Guard,1968,N/A,0,0,3,CZE,Jakub Sirina
+250,1,0,0,0,-3.0,0,0,2,0,0,0,6,Vyoral,10,0,Tomas Vyoral (CZE),1,160181,/basketballworldcup/2019/player/Tomas-Vyoral,7,0,Point Guard,604,N/A,0,0,2,CZE,Tomas Vyoral
+251,24,3,23,1,93.0,11,4,36,15,12,9,8,Fernandez,216,6,Rudy Fernandez (ESP),14,135508,/basketballworldcup/2019/player/Rudy-Fernandez,110,62,Small Forward,13016,N/A,13,0,7,ESP,Rudy Fernandez
+252,33,9,41,0,135.0,56,30,31,7,45,34,8,Gasol,228,3,Marc Gasol (ESP),15,137482,/basketballworldcup/2019/player/Marc-Gasol,109,115,Center,13692,N/A,9,0,14,ESP,Marc Gasol
+253,13,5,24,0,104.0,29,21,19,6,10,8,8,Claver,209,15,Victor Claver (ESP),21,146682,/basketballworldcup/2019/player/Victor-Claver,76,68,Forward,12547,N/A,12,0,10,ESP,Victor Claver
+254,48,0,30,1,140.0,63,29,31,12,44,37,8,Rubio,210,7,Ricky Rubio (ESP),18,152350,/basketballworldcup/2019/player/Ricky-Rubio,96,131,Point Guard,12638,N/A,12,0,28,ESP,Ricky Rubio
+255,30,0,10,0,53.0,38,18,49,13,11,9,8,Llull,193,0,Sergio Llull (ESP),19,143541,/basketballworldcup/2019/player/Sergio-Llull,85,84,Guard,11581,N/A,4,0,17,ESP,Sergio Llull
+256,10,6,19,0,74.0,40,22,2,0,19,12,8,Hernangomez Geuer,103,12,Willy Hernangomez Geuer (ESP),13,182911,/basketballworldcup/2019/player/Willy-Hernangomez-Geuer,1,56,Center,6188,N/A,4,0,6,ESP,Willy Hernangomez Geuer
+257,5,3,30,1,108.0,27,19,25,11,19,13,8,Hernangomez,184,13,Juancho Hernangomez (ESP),23,195596,/basketballworldcup/2019/player/Juancho-Hernangomez,30,84,Forward,11077,N/A,8,0,7,ESP,Juancho Hernangomez
+258,10,0,12,0,44.0,6,4,22,8,6,5,8,Ribas,139,1,Pau Ribas (ESP),13,150818,/basketballworldcup/2019/player/Pau-Ribas,3,37,Guard,8366,N/A,5,0,4,ESP,Pau Ribas
+259,1,0,18,0,44.0,17,12,8,0,4,3,8,Oriola,103,11,Pierre Oriola (ESP),13,182291,/basketballworldcup/2019/player/Pierre-Oriola,23,27,Power Forward,6225,N/A,2,0,1,ESP,Pierre Oriola
+260,6,0,2,0,12.0,3,2,3,1,0,0,5,Colom,26,1,Quino Colom (ESP),3,140616,/basketballworldcup/2019/player/Quino-Colom,24,7,Point Guard,1615,N/A,1,0,2,ESP,Quino Colom
+261,0,0,4,0,9.0,2,2,3,0,0,0,4,Beiran,17,3,Javier Beiran (ESP),0,150824,/basketballworldcup/2019/player/Javier-Beiran,4,4,Forward,1022,N/A,1,0,0,ESP,Javier Beiran
+262,2,0,1,0,0.0,1,0,1,0,0,0,4,Rabaseda,17,1,Xavier Rabaseda (ESP),3,152368,/basketballworldcup/2019/player/Xavier-Rabaseda,14,0,Small Forward,1033,N/A,1,0,3,ESP,Xavier Rabaseda
+263,5,0,5,0,19.0,14,5,30,9,3,2,5,Zamora,101,1,Jhornan Zamora (VEN),8,152479,/basketballworldcup/2019/player/Jhornan-Zamora,-1,39,Shooting Guard,6096,N/A,2,0,2,VEN,Jhornan Zamora
+264,1,0,9,0,22.0,4,2,8,4,6,3,4,Bethelmy,38,3,Luis Bethelmy (VEN),4,149791,/basketballworldcup/2019/player/Luis-Bethelmy,-11,19,Power Forward,2292,N/A,0,0,1,VEN,Luis Bethelmy
+265,5,3,13,1,61.0,25,15,3,0,26,20,5,Carrera,81,12,Michael Carrera (VEN),14,170075,/basketballworldcup/2019/player/Michael-Carrera,-14,50,Power Forward,4906,N/A,4,0,7,VEN,Michael Carrera
+266,0,0,6,0,17.0,7,5,14,4,0,0,5,Chourio,66,2,Pedro Chourio (VEN),8,199741,/basketballworldcup/2019/player/Pedro-Chourio,-29,22,Shooting Guard,3979,N/A,2,0,3,VEN,Pedro Chourio
+267,10,1,14,0,55.0,40,17,8,2,9,6,5,Colmenares,129,15,Nestor Colmenares (VEN),16,187118,/basketballworldcup/2019/player/Nestor-Colmenares,-6,46,Power Forward,7787,N/A,7,0,6,VEN,Nestor Colmenares
+268,31,0,8,0,66.0,33,14,28,12,3,1,5,Guillent,144,2,Heissler Guillent (VEN),7,176744,/basketballworldcup/2019/player/Heissler-Guillent,11,65,Point Guard,8669,N/A,5,0,8,VEN,Heissler Guillent
+269,5,1,5,0,36.0,24,13,9,4,2,2,5,Lewis,86,2,Dwight Lewis (VEN),7,186619,/basketballworldcup/2019/player/Dwight-Lewis,8,40,Small Forward,5179,N/A,2,0,3,VEN,Dwight Lewis
+270,2,1,6,0,18.0,6,3,2,0,0,0,4,Graterol,33,9,Windi Graterol (VEN),8,172121,/basketballworldcup/2019/player/Windi-Graterol,-3,6,Center,2037,N/A,0,0,1,VEN,Windi Graterol
+271,4,0,23,0,57.0,19,10,0,0,1,1,5,Ruiz,116,15,Miguel Ruiz (VEN),17,192924,/basketballworldcup/2019/player/Miguel-Ruiz,12,21,Power Forward,6972,N/A,7,0,4,VEN,Miguel Ruiz
+272,12,0,9,0,21.0,24,9,9,1,12,10,5,Vargas,102,4,Gregory Vargas (VEN),12,173128,/basketballworldcup/2019/player/Gregory-Vargas,-21,31,Point Guard,6173,N/A,3,0,13,VEN,Gregory Vargas
+273,4,1,7,0,11.0,10,3,12,3,2,0,5,Vargas,81,3,Jose Vargas (VEN),13,156033,/basketballworldcup/2019/player/Jose-Vargas,0,15,Small Forward,4886,N/A,5,0,6,VEN,Jose Vargas
+274,33,0,12,0,31.0,25,9,14,3,11,2,5,Solano,121,1,Gelvis Solano (DOM),13,224581,/basketballworldcup/2019/player/Gelvis-Solano,-13,29,Point Guard,7303,N/A,6,0,14,DOM,Gelvis Solano
+275,5,0,0,0,13.0,4,2,6,3,2,1,4,Ramon,40,0,Ronald Ramon (DOM),6,180919,/basketballworldcup/2019/player/Ronald-Ramon,-31,14,Point Guard,2403,N/A,1,0,1,DOM,Ronald Ramon
+276,10,1,9,0,44.0,32,13,20,7,22,18,5,Liz,131,5,Victor Liz (DOM),7,193178,/basketballworldcup/2019/player/Victor-Liz,-40,65,Shooting Guard,7916,N/A,7,0,17,DOM,Victor Liz
+277,10,1,15,0,41.0,28,13,11,3,5,5,5,Mendoza,113,3,Rigoberto Mendoza (DOM),4,215021,/basketballworldcup/2019/player/Rigoberto-Mendoza,-46,40,Guard,6828,N/A,3,0,8,DOM,Rigoberto Mendoza
+278,0,0,2,0,3.0,1,0,0,0,2,2,4,Suero,19,1,Juan Miguel Suero (DOM),2,215090,/basketballworldcup/2019/player/Juan-Miguel-Suero,-5,2,,1152,N/A,0,0,1,DOM,Juan Miguel Suero
+279,3,3,10,0,29.0,13,5,16,5,6,3,5,Montero,95,4,Luis Montero (DOM),12,219427,/basketballworldcup/2019/player/Luis-Montero,-22,28,Guard,5742,N/A,7,0,4,DOM,Luis Montero
+280,3,0,11,0,35.0,15,7,8,4,0,0,5,Rojas,101,8,Sadiel Rojas (DOM),14,192706,/basketballworldcup/2019/player/Sadiel-Rojas,-23,26,Small Forward,6078,N/A,7,0,8,DOM,Sadiel Rojas
+281,3,3,18,0,66.0,36,21,2,0,15,13,5,Vargas,101,9,Eloy Vargas (DOM),15,192135,/basketballworldcup/2019/player/Eloy-Vargas,-23,55,Center,6070,N/A,1,0,4,DOM,Eloy Vargas
+282,3,0,0,0,6.0,2,0,6,2,2,2,5,Peña,31,1,Dagoberto Peña (DOM),4,195507,/basketballworldcup/2019/player/Dagoberto-Peña,-10,8,,1888,N/A,1,0,1,DOM,Dagoberto Peña
+283,8,2,16,0,41.0,16,7,21,5,4,3,5,Baez,121,6,Eulis Baez (DOM),9,138547,/basketballworldcup/2019/player/Eulis-Baez,-19,32,Forward,7272,N/A,6,0,3,DOM,Eulis Baez
+284,1,1,3,0,1.0,1,0,5,1,2,0,4,Garcia,21,1,Juan Garcia (DOM),3,173894,/basketballworldcup/2019/player/Juan-Garcia,-2,3,Power Forward,1268,N/A,1,0,2,DOM,Juan Garcia
+285,2,1,11,0,38.0,31,14,1,0,8,7,5,Roberts,101,10,Ronald Roberts (DOM),12,210758,/basketballworldcup/2019/player/Ronald-Roberts,-31,35,Power Forward,6080,N/A,2,0,4,DOM,Ronald Roberts
+286,5,4,20,0,59.0,19,10,17,6,14,10,5,Abercrombie,137,8,Tom Abercrombie (NZL),12,149634,/basketballworldcup/2019/player/Tom-Abercrombie,46,48,Small Forward,8222,N/A,3,0,5,NZL,Tom Abercrombie
+287,0,0,9,0,20.0,11,7,3,0,2,2,5,Delany,70,6,Finn Delany (NZL),12,216274,/basketballworldcup/2019/player/Finn-Delany,-32,16,Power Forward,4231,N/A,1,0,5,NZL,Finn Delany
+288,8,0,23,1,98.0,43,32,8,2,30,22,5,Fotu,123,7,Isaac Fotu (NZL),12,184255,/basketballworldcup/2019/player/Isaac-Fotu,49,92,Power Forward,7382,N/A,1,0,8,NZL,Isaac Fotu
+289,25,3,12,0,73.0,21,10,6,3,28,23,5,Ili,103,3,Shea Ili (NZL),13,217716,/basketballworldcup/2019/player/Shea-Ili,-4,52,Point Guard,6228,N/A,3,0,6,NZL,Shea Ili
+290,16,2,14,0,66.0,13,6,23,12,12,7,5,Loe,116,10,Rob Loe (NZL),20,156348,/basketballworldcup/2019/player/Rob-Loe,45,55,Center,7014,N/A,2,0,10,NZL,Rob Loe
+291,2,0,5,0,10.0,8,3,0,0,0,0,5,Pledger,23,2,Alex Pledger (NZL),3,166891,/basketballworldcup/2019/player/Alex-Pledger,-27,6,Center,1437,N/A,0,0,0,NZL,Alex Pledger
+292,0,0,4,0,9.0,3,1,14,5,2,1,5,Rusbatch,51,1,Ethan Rusbatch (NZL),7,181208,/basketballworldcup/2019/player/Ethan-Rusbatch,-23,18,Shooting Guard,3068,N/A,1,0,3,NZL,Ethan Rusbatch
+293,5,6,9,0,45.0,8,5,12,5,2,1,5,Smith-Milner,63,5,Tohi Smith-Milner (NZL),9,194467,/basketballworldcup/2019/player/Tohi-Smith-Milner,13,26,Power Forward,3826,N/A,6,0,1,NZL,Tohi Smith-Milner
+294,28,0,20,0,128.0,28,15,44,24,13,12,5,Webster,149,3,Corey Webster (NZL),10,156434,/basketballworldcup/2019/player/Corey-Webster,40,114,Shooting Guard,8940,N/A,5,0,8,NZL,Corey Webster
+295,24,0,20,0,58.0,34,20,21,4,20,15,5,Webster,137,1,Tai Webster (NZL),18,195471,/basketballworldcup/2019/player/Tai-Webster,24,67,Point Guard,8246,N/A,2,0,20,NZL,Tai Webster
+296,20,0,5,0,24.0,8,1,16,6,0,0,8,Koszarek,110,1,Lukasz Koszarek (POL),10,137866,/basketballworldcup/2019/player/Lukasz-Koszarek,-10,20,Point Guard,6606,N/A,3,0,8,POL,Lukasz Koszarek
+297,2,0,0,0,-2.0,1,0,4,0,0,0,4,Laczynski,10,1,Kamil  Laczynski (POL),4,151788,/basketballworldcup/2019/player/Kamil-Laczynski,0,0,Point Guard,638,N/A,1,0,1,POL,Kamil  Laczynski
+298,38,1,15,1,97.0,58,26,40,13,17,15,8,Slaughter,238,7,A.J. Slaughter (POL),12,184710,/basketballworldcup/2019/player/A-J--Slaughter,-25,106,Point Guard,14289,N/A,7,0,16,POL,A.J. Slaughter
+299,1,0,8,0,15.0,6,5,10,2,4,2,7,Gruszecki,41,1,Karol Gruszecki (POL),1,151781,/basketballworldcup/2019/player/Karol-Gruszecki,-8,18,Shooting Guard,2484,N/A,3,0,5,POL,Karol Gruszecki
+300,13,7,47,0,129.0,49,26,17,7,47,35,8,Ponitka,229,7,Mateusz Ponitka (POL),19,175849,/basketballworldcup/2019/player/Mateusz-Ponitka,-20,108,Shooting Guard,13764,N/A,11,0,19,POL,Mateusz Ponitka
+301,6,4,11,0,77.0,24,16,11,5,14,13,8,Sokolowski,142,11,Michal Sokolowski (POL),22,168733,/basketballworldcup/2019/player/Michal-Sokolowski,15,60,Small Forward,8541,N/A,5,0,5,POL,Michal Sokolowski
+302,1,0,5,0,11.0,8,4,0,0,0,0,5,Olejniczak,13,2,Dominik Olejniczak (POL),2,203704,/basketballworldcup/2019/player/Dominik-Olejniczak,4,8,Center,825,N/A,0,0,1,POL,Dominik Olejniczak
+303,22,1,16,0,98.0,40,19,40,15,30,28,8,Waczynski,251,5,Adam Waczynski (POL),14,155200,/basketballworldcup/2019/player/Adam-Waczynski,-19,111,Small Forward,15087,N/A,5,0,14,POL,Adam Waczynski
+304,4,0,12,0,18.0,7,6,11,1,13,5,8,Balcerowski,107,3,Aleksander Roman Balcerowski (POL),9,215071,/basketballworldcup/2019/player/Aleksander-Roman-Balcerowski,-5,20,Center,6463,N/A,2,0,4,POL,Aleksander Roman Balcerowski
+305,7,0,21,0,48.0,28,13,24,8,2,1,8,Cel,157,6,Aaron Cel (POL),13,142650,/basketballworldcup/2019/player/Aaron-Cel,-34,51,Power Forward,9424,N/A,4,0,9,POL,Aaron Cel
+306,15,1,24,1,74.0,37,20,0,0,14,9,8,Hrycaniuk,164,14,Adam Hrycaniuk (POL),21,140526,/basketballworldcup/2019/player/Adam-Hrycaniuk,-4,49,Center,9851,N/A,3,0,10,POL,Adam Hrycaniuk
+307,8,9,25,0,85.0,30,18,20,4,26,20,8,Kulig,158,12,Damian Kulig (POL),16,150782,/basketballworldcup/2019/player/Damian-Kulig,-19,68,Power Forward,9528,N/A,6,0,9,POL,Damian Kulig
+308,9,1,15,0,54.0,12,9,17,7,2,1,8,Brussino,120,6,Nicolas Brussino (ARG),12,181248,/basketballworldcup/2019/player/Nicolas-Brussino,30,40,Shooting Guard,7208,N/A,2,0,5,ARG,Nicolas Brussino
+309,62,1,28,1,146.0,33,15,46,18,28,22,8,Campazzo,233,6,Facundo Campazzo (ARG),15,163373,/basketballworldcup/2019/player/Facundo-Campazzo,106,106,Point Guard,14008,N/A,16,0,21,ARG,Facundo Campazzo
+310,17,1,12,0,55.0,9,5,25,8,13,12,8,Vildoza,131,0,Luca Vildoza (ARG),17,185254,/basketballworldcup/2019/player/Luca-Vildoza,1,46,Point Guard,7910,N/A,12,0,11,ARG,Luca Vildoza
+311,29,0,15,0,72.0,23,8,49,15,23,19,8,Laprovittola,178,3,Nicolás Laprovittola (ARG),16,167497,/basketballworldcup/2019/player/Nicolás-Laprovittola,57,80,Point Guard,10712,N/A,12,0,14,ARG,Nicolás Laprovittola
+312,3,0,1,0,1.0,3,1,8,1,2,2,4,Redivo,18,0,Lucio Redivo (ARG),0,224629,/basketballworldcup/2019/player/Lucio-Redivo,-13,7,Shooting Guard,1105,N/A,1,0,2,ARG,Lucio Redivo
+313,3,1,14,0,32.0,9,6,2,1,4,1,7,Fjellerup,59,1,Maximo Fjellerup (ARG),9,202980,/basketballworldcup/2019/player/Maximo-Fjellerup,6,16,Shooting Guard,3545,N/A,5,0,1,ARG,Maximo Fjellerup
+314,8,5,19,0,77.0,32,13,20,8,16,15,8,Garino,194,7,Patricio Garino (ARG),22,170007,/basketballworldcup/2019/player/Patricio-Garino,100,65,Small Forward,11666,N/A,12,0,7,ARG,Patricio Garino
+315,7,1,16,0,105.0,59,36,16,6,29,21,8,Deck,196,9,Gabriel Deck (ARG),14,177356,/basketballworldcup/2019/player/Gabriel-Deck,42,111,Small Forward,11765,N/A,9,0,7,ARG,Gabriel Deck
+316,0,1,3,0,10.0,8,2,0,0,6,6,6,Gallizzi,33,3,Tayavek Gallizzi (ARG),15,181253,/basketballworldcup/2019/player/Tayavek-Gallizzi,14,10,Center,2013,N/A,3,0,4,ARG,Tayavek Gallizzi
+317,4,9,26,0,75.0,41,25,0,0,16,6,8,Delia,181,11,Marcos Delia (ARG),18,173039,/basketballworldcup/2019/player/Marcos-Delia,43,56,Center,10906,N/A,1,0,6,ARG,Marcos Delia
+318,14,3,51,2,150.0,77,35,29,11,46,40,8,Scola,236,14,Luís Scola (ARG),24,122079,/basketballworldcup/2019/player/Luís-Scola,103,143,Power Forward,14176,N/A,6,0,15,ARG,Luís Scola
+319,1,1,2,0,11.0,5,3,0,0,3,2,6,Caffaro,16,2,Agustin Caffaro (ARG),4,195548,/basketballworldcup/2019/player/Agustin-Caffaro,-4,8,Center,986,N/A,1,0,1,ARG,Agustin Caffaro
+320,21,2,9,0,41.0,5,2,5,1,2,0,5,Balbay,85,8,Dogus Balbay (TUR),9,146385,/basketballworldcup/2019/player/Dogus-Balbay,20,7,Point Guard,5150,N/A,5,0,2,TUR,Dogus Balbay
+321,0,0,9,0,18.0,9,5,0,0,10,6,4,Sanli,45,0,Sertac Sanli (TUR),8,156197,/basketballworldcup/2019/player/Sertac-Sanli,-11,16,Center,2729,N/A,3,0,2,TUR,Sertac Sanli
+322,13,0,5,0,21.0,6,3,5,1,2,2,5,Tuncer,51,1,Bugrahan Tuncer (TUR),6,176214,/basketballworldcup/2019/player/Bugrahan-Tuncer,-7,11,Shooting Guard,3104,N/A,1,0,3,TUR,Bugrahan Tuncer
+323,1,0,16,0,39.0,16,11,8,1,6,6,5,Birsen,89,8,James Metecan Birsen (TUR),4,183292,/basketballworldcup/2019/player/James-Metecan-Birsen,-14,31,Small Forward,5340,N/A,1,0,6,TUR,James Metecan Birsen
+324,5,0,4,0,78.0,33,22,31,15,5,4,5,Mahmutoglu,156,4,Melih Mahmutoglu (TUR),4,156212,/basketballworldcup/2019/player/Melih-Mahmutoglu,24,93,Shooting Guard,9385,N/A,4,0,4,TUR,Melih Mahmutoglu
+325,4,3,14,0,32.0,26,13,0,0,13,8,5,Erden,114,5,Semih Erden (TUR),21,145958,/basketballworldcup/2019/player/Semih-Erden,20,34,Center,6890,N/A,4,0,14,TUR,Semih Erden
+326,13,2,14,0,92.0,42,28,34,10,19,16,5,Osman,163,2,Cedi Osman (TUR),14,190655,/basketballworldcup/2019/player/Cedi-Osman,22,102,Small Forward,9809,N/A,7,0,7,TUR,Cedi Osman
+327,7,1,10,0,46.0,22,11,18,7,5,4,4,Korkmaz,106,4,Furkan Korkmaz (TUR),6,197385,/basketballworldcup/2019/player/Furkan-Korkmaz,-31,47,Shooting Guard,6379,N/A,6,0,6,TUR,Furkan Korkmaz
+328,26,0,10,0,63.0,17,8,12,6,8,7,4,Wilbekin,85,1,Scott Wilbekin (TUR),11,188889,/basketballworldcup/2019/player/Scott-Wilbekin,2,41,Point Guard,5154,N/A,5,0,4,TUR,Scott Wilbekin
+329,7,3,16,0,44.0,43,19,10,1,12,10,5,Ndour,135,5,Maurice Ndour (SEN),13,211573,/basketballworldcup/2019/player/Maurice-Ndour,-98,51,Forward,8144,N/A,10,0,13,SEN,Maurice Ndour
+330,27,1,15,0,43.0,22,10,13,3,5,4,5,Dalmeida,161,1,Xane Dalmeida (SEN),8,153469,/basketballworldcup/2019/player/Xane-Dalmeida,-59,33,Guard,9685,N/A,3,0,14,SEN,Xane Dalmeida
+331,11,0,3,0,12.0,17,6,27,7,0,0,5,Sambe,122,1,Lamine Sambe (SEN),12,146625,/basketballworldcup/2019/player/Lamine-Sambe,-65,33,Guard,7333,N/A,3,0,8,SEN,Lamine Sambe
+332,9,4,12,0,41.0,21,8,28,8,13,9,5,Faye,143,5,Mouhammad Faye (SEN),11,148900,/basketballworldcup/2019/player/Mouhammad-Faye,-70,49,Power Forward,8636,N/A,7,0,8,SEN,Mouhammad Faye
+333,2,7,21,2,67.0,42,23,6,1,12,10,5,Ndoye,126,10,Youssoupha Ndoye (SEN),12,181170,/basketballworldcup/2019/player/Youssoupha-Ndoye,-77,59,Center,7578,N/A,2,0,8,SEN,Youssoupha Ndoye
+334,1,0,3,0,5.0,4,0,0,0,2,1,5,Ndoye,35,3,Momar Ndoye (SEN),2,273044,/basketballworldcup/2019/player/Momar-Ndoye,-27,1,Forward,2109,N/A,2,0,0,SEN,Momar Ndoye
+335,1,0,1,0,30.0,21,11,4,3,1,1,4,Toure,63,8,Babacar Toure (SEN),7,165133,/basketballworldcup/2019/player/Babacar-Toure,-40,32,Center,3780,N/A,2,0,3,SEN,Babacar Toure
+336,1,4,4,0,16.0,4,3,0,0,2,1,4,Ndiaye,43,2,Hamady Ndiaye (SEN),5,180719,/basketballworldcup/2019/player/Hamady-Ndiaye,-16,7,Center,2635,N/A,1,0,1,SEN,Hamady Ndiaye
+337,1,0,4,0,19.0,10,7,2,0,4,3,5,Diop,35,1,Pape Diop (SEN),6,211918,/basketballworldcup/2019/player/Pape-Diop,-7,17,Forward,2156,N/A,2,0,0,SEN,Pape Diop

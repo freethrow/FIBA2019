@@ -1,0 +1,32 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#title {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+.label {
+  z-index: 3;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+}
+
+#chart-area {
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+#flag {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 80px;
+  text-align: left;
+}
+
+.flag-icon-background {
+  height: 100%;
+}

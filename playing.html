@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>I'm Learning D3</title>
+    <!-- Load the D3 library here -->
+    <script src="https://d3js.org/d3.v3.js" charset="utf-8"></script>
+
+    <style>
+      .chart {
+      }
+
+      .main text {
+        font: 10px sans-serif;
+      }
+
+      .axis line,
+      .axis path {
+        shape-rendering: crispEdges;
+        stroke: black;
+        fill: none;
+      }
+
+      circle {
+        fill: steelblue;
+      }
+
+      div.tooltip {
+        position: absolute;
+        text-align: center;
+        width: 60px;
+        height: 60px;
+        padding: 2px;
+        font: 12px sans-serif;
+        background: lightsteelblue;
+        border: 0px;
+        border-radius: 8px;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body>
+    <select name="team" id="team">
+      <option value="SRB">Serbia</option>
+      <option value="GER">Germany</option>
+      <option value="ESP">Spain</option>
+      <option value="USA">United States</option>
+      <option value="RUS">Russia</option>
+    </select>
+    <!-- Page elements and content go here. -->
+
+    <script>
+      d3.csv(
+        "fiba_stats.csv",
+        function(d) {
+          return {
+            Country: d.Country,
+            Name: d.LastName,
+            Assists: +d.AssistsTotal,
+            Points: +d.PointsTotal,
+            Games: +d.GamesPlayedTotal,
+            PlusMinus: +d.PlusMinus,
+            Minutes: +d.MinutesTotal,
+            Rebounds: +d.OffensiveReboundsTotal + +d.DefensiveReboundsTotal
+          };
+        },
+        function(data) {
+          var serbia = data.filter(function(d) {
+            return d.Country == "GER";
+          });
+
+          console.log(serbia);
+
+          var margin = { top: 20, right: 15, bottom: 60, left: 60 };
+          width = 960 - margin.left - margin.right;
+          height = 500 - margin.top - margin.bottom;
+
+          var x = d3.scale
+            .linear()
+            .domain([
+              0,
+              d3.max(serbia, function(d) {
+                return d.Rebounds / d.Games + 2;
+              })
+            ])
+            .range([0, width - 50]);
+
+          var y = d3.scale
+            .linear()
+            .domain([
+              0,
+              d3.max(data, function(d) {
+                return d.Assists / d.Games;
+              })
+            ])
+            .range([height, 0]);
+
+          var rscale = d3.scale
+            .linear()
+            .domain([
+              0,
+              d3.max(data, function(d) {
+                return d.Points / d.Games;
+              })
+            ])
+            .range([2, 50]);
+
+          minColor = d3.min(data, function(d) {
+            return d.PlusMinus / d.Games;
+          });
+
+          console.log("MIN PlusMinus p G:", minColor);
+
+          maxColor = d3.max(data, function(d) {
+            return d.PlusMinus / d.Games;
+          });
+
+          console.log("MAX PlusMinus p G:", maxColor);
+
+          var colorScale = d3.scale
+            .linear()
+            .domain([minColor, maxColor])
+            .interpolate(d3.interpolateHcl)
+            .range([d3.rgb("#ff0000"), d3.rgb("#00ff00")]);
+
+          console.log("Min color:", colorScale(minColor));
+          var chart = d3
+            .select("body")
+            .append("svg:svg")
+            .attr("width", width + margin.right + margin.left)
+            .attr("height", height + margin.top + margin.bottom)
+            .attr("class", "chart");
+
+          var main = chart
+            .append("g")
+            .attr(
+              "transform",
+              "translate(" + margin.left + "," + margin.top + ")"
+            )
+            .attr("width", width)
+            .attr("height", height)
+            .attr("class", "main");
+
+          // draw the x axis
+          var xAxis = d3.svg
+            .axis()
+            .scale(x)
+            .orient("bottom");
+
+          main
+            .append("g")
+            .attr("transform", "translate(0," + height + ")")
+            .attr("class", "main axis date")
+            .call(xAxis);
+
+          // draw the y axis
+          var yAxis = d3.svg
+            .axis()
+            .scale(y)
+            .orient("left");
+
+          main
+            .append("g")
+            .attr("transform", "translate(0,0)")
+            .attr("class", "main axis date")
+            .call(yAxis);
+
+          var g = main.append("svg:g");
+
+          // create a tooltip
+          var Tooltip = d3
+            .select("body")
+            .append("div")
+            .style("opacity", 0)
+            .attr("class", "tooltip")
+            .style("background-color", "orange")
+            .style("border", "solid")
+            .style("border-width", "2px")
+            .style("border-radius", "5px")
+            .style("padding", "5px");
+
+          // Three function that change the tooltip when user hover / move / leave a cell
+          var mouseover = function(d) {
+            Tooltip.style("opacity", 1);
+            d3.select(this)
+              .style("stroke", "black")
+              .style("opacity", 1);
+          };
+          var mousemove = function(d) {
+            Tooltip.html(
+              `<strong>${d.Name}</strong><br/>PPG:${(
+                d.Points / d.Games
+              ).toFixed(1)}
+      	<br/> mpg:${(d.Minutes / d.Games).toFixed(1)}`
+            )
+              .style("left", d3.mouse(this)[0] + 70 + "px")
+              .style("top", d3.mouse(this)[1] + "px");
+          };
+          var mouseleave = function(d) {
+            Tooltip.style("opacity", 0);
+            d3.select(this)
+              .style("stroke", "none")
+              .style("opacity", 0.8);
+          };
+
+          g.selectAll("scatter-dots")
+            .data(serbia)
+            .enter()
+            .append("svg:circle")
+            .attr("cx", function(d, i) {
+              return x(d.Rebounds / d.Games);
+            })
+            .attr("cy", function(d) {
+              return y(d.Assists / d.Games);
+            })
+            .attr("r", function(d) {
+              return rscale(d.Points / d.Games);
+            })
+            .style("fill", function(d) {
+              return colorScale(d.PlusMinus / d.Games);
+            })
+            .on("mouseover", mouseover)
+            .on("mousemove", mousemove)
+            .on("mouseleave", mouseleave);
+        }
+      );
+    </script>
+  </body>
+</html>

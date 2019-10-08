@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>FIBA World Cup 2019</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.3/css/flag-icon.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">
+          Great basketball or <span class="text-danger">good</span> coaching?
+        </h1>
+        <p class="lead">
+          It is time to take a dive into the remains of the 2019 basketball
+          World Championship, now dubbed simply as <em>the FIBA Cup</em>.
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <div id="flag"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <select name="team" class="form-control" id="team">
+            <option value="SRB">Serbia</option>
+            <option value="USA">United States</option>
+            <option value="GER">Germany</option>
+            <option value="AUS">Australia</option>
+            <option value="CAN">Canada</option>
+            <option value="ITA">Italy</option>
+            <option value="BRA">Brazil</option>
+            <option value="ARG">Argentina</option>
+            <option value="ESP">Spain</option>
+            <option value="FRA">France</option>
+            <option value="JOR">Jordan</option>
+            <option value="CIV">Cote d'Ivoire</option>
+            <option value="PHI">Philippines</option>
+            <option value="LTU">Lithuania</option>
+            <option value="NGR">Nigeria</option>
+            <option value="IRI">Iran</option>
+            <option value="ANG">Angola</option>
+            <option value="CHN">China</option>
+            <option value="MNE">Montenegro</option>
+            <option value="KOR">South Korea</option>
+            <option value="RUS">Russia</option>
+            <option value="PUR">Puertorico</option>
+            <option value="TUN">Tunis</option>
+            <option value="JPN">Japan</option>
+            <option value="CZE">Czech Republic</option>
+            <option value="VEN">Venezuela</option>
+            <option value="NZL">New Zealand</option>
+            <option value="DOM">Dominican Republic</option>
+            <option value="POL">Poland</option>
+            <option value="TUR">Turkey</option>
+            <option value="SEN">Senegal</option>
+            <option value="WRLD">World</option>
+          </select>
+        </div>
+        <div class="col-sm">
+          <select name="stat" id="stat" class="form-control">
+            <option value="PPG">Points per game</option>
+            <option value="APG">Assists per game</option>
+            <option value="RPG">Rebounds per game</option>
+            <option value="PlusMinus">Plus/Minus</option>
+            <option value="MinPG">Minutes per game</option>
+            <option value="FoulsPG">Fouls per game</option>
+            <option value="EffPG">Efficiency per game</option>
+            <option value="DefRebsPG">Defensive Rebounds per game</option>
+            <option value="OffRebsPG">Offensive Rebounds per game</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="text-play"></div>
+      <div id="chart-area"></div>
+      <button id="sort">Sort</button>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.js"></script>
+  <script src="app.js"></script>
+</html>
