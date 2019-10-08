@@ -229,7 +229,7 @@ const flags = {
   DJI: "DJ",
   DNK: "DK",
   VGB: "VG",
-  DEU: "DE",
+  GER: "DE",
   YEM: "YE",
   DZA: "DZ",
   USA: "US",
