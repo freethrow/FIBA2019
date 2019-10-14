@@ -1,0 +1,41 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#title {
+  font-weight: 600;
+  font-size: 1.8em;
+}
+.label {
+  z-index: 3;
+}
+
+.container {
+  margin: auto;
+  text-align: center;
+  max-width: 900px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+button.btn {
+  margin: 1em;
+}
+
+
+
+
+.tooltip { 
+    position: absolute;     
+    text-align: center;     
+    width: 80px;          
+    height: 30px;         
+    padding: 2px;       
+    font: 12px sans-serif;    
+    background: white !important; 
+    border: 1px solid black;    
+    border-radius: 8px;     
+    pointer-events: none;
+    color:#000;
+    z-index:10 !important;     
+}

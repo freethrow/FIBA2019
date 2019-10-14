@@ -403,8 +403,6 @@ generateChart = (country, stat) => {
   y.domain([minDomain, maxDomain]);
   x.domain(chartData.map(item => item.FullName));
 
-  console.log(x.bandwidth());
-
   color.domain([
     d3.min(chartData, d => d[stat]),
     d3.max(chartData, d => d[stat])
@@ -495,6 +493,7 @@ generateChart = (country, stat) => {
     .attr("x", d => x(d.FullName))
     .attr("width", x.bandwidth)
     .attr("class", "bar")
+    .attr("stroke", "#000")
     .transition()
     .duration(1000)
     .attr("y", d => y(d[stat]))

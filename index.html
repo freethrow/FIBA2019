@@ -32,6 +32,7 @@
         </p>
       </div>
     </div>
+
     <div class="container">
       <div class="row">
         <div class="col-sm">
@@ -86,15 +87,57 @@
             <option value="EffPG">Efficiency per game</option>
             <option value="DefRebsPG">Defensive Rebounds per game</option>
             <option value="OffRebsPG">Offensive Rebounds per game</option>
+            <option value="Points">Points Total</option>
           </select>
         </div>
       </div>
 
       <div id="text-play"></div>
       <div id="chart-area"></div>
-      <button type="button" class="btn btn-dark" id="sort">Sort</button>
+
+      <button type="button" class="btn btn-dark btn-block" id="sort">Sort</button>
+      <hr />
+      <div class="jumbotron jumbotron-fluid mt-5">
+        <div class="container">
+          <h1 class="display-4">
+            How about <span class="text-danger">shooting</span> the ball?
+          </h1>
+          <p class="lead">
+            It is time to take a dive into the remains of the 2019 basketball
+            World Championship, now dubbed simply as <em>the FIBA Cup</em>.
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <select name="stat2" id="stat2" class="form-control">
+              <option value="PPG">Points per Game</option>
+              <option value="APG">Assists per game</option>
+              <option value="RPG">Rebounds per game</option>
+              <option value="PlusMinus">Plus/Minus</option>
+              <option value="MinPG">Minutes per game</option>
+              <option value="FoulsPG">Fouls per game</option>
+              <option value="EffPG">Efficiency per game</option>
+              <option value="DefRebsPG">Defensive Rebounds per game</option>
+              <option value="OffRebsPG">Offensive Rebounds per game</option>
+              <option value="ThreePTSM">3 pts made per game</option>
+              <option value="ThreePTSA">3 pts attempred per game</option>
+              <option value="ThreePTSPCT">3 pts percentage</option>
+               <option value="TOPG">Turnovers per game</option>
+
+
+    
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div id="chart-two"></div>
+      <button type="button" class="btn btn-dark" id="sort2">Sort</button>
     </div>
   </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.js"></script>
   <script src="app.js"></script>
+  <script src="app2.js"></script>
 </html>
