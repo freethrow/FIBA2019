@@ -26,14 +26,21 @@
         <h1 class="display-4">
           Great basketball or <span class="text-danger">good</span> coaching?
         </h1>
-        <p class="lead">
+        <p class="">
           It is time to take a dive into the remains of the 2019 basketball
           World Championship, now dubbed simply as <em>the FIBA Cup</em>.
+          The Serbian and the American national teams failed miserably - what was supposed to be a quite interesting finals became a torture and a missed opportunity for both teams. <br/>
+          While the US team couldn't count on a dozen All-Star players in their prime, it is too easy to dismiss the talent that coach Pop has at his disposal. The US has such an overwhelmingly huge player base and they have been playing under the FIBA / international rules for so long, that I find it difficult to dismiss their teams lack of success and file it under the <em>missing key players</em> file.</p>
+          <hr/>
+          <p class="">Serbia, on the other hand, is maybe an even bigger dissapointment. A lineup featuring Nikola Jokic, a top 5 NBA player and arguably the most dominant center in the post-Shaq era, an NBA sharpshooter (Bogdanovic) just entering his prime, Milutinov - probably the best center in Europe... It just wasn't enough for two expirienced teams (the amazing Argentina and an even more amazing Spain), filled with veterans playing well beyond their primes.
         </p>
+        <p>This is <em>not</em> an attempt to drill down and find the quantitative causes of the Underdogs Cup. FIBA presents us with a very oldschool set of basketball data: basic individual and team stats, and a couple of extras like efficiency and plus/minus. I tried to visualize some of the data provided on the official World Cup website, and I believe that even this data tells a story, at least a small part of the story.</p>
+
       </div>
     </div>
 
     <div class="container">
+      <h1>Player statistics - by team</h1>
       <div class="row">
         <div class="col-sm">
           <div id="flag"></div>
@@ -97,17 +104,20 @@
 
       <button type="button" class="btn btn-dark btn-block" id="sort">Sort</button>
       <hr />
+
+    </div>
       <div class="jumbotron jumbotron-fluid mt-5">
         <div class="container">
           <h1 class="display-4">
             How about <span class="text-danger">shooting</span> the ball?
           </h1>
-          <p class="lead">
-            It is time to take a dive into the remains of the 2019 basketball
-            World Championship, now dubbed simply as <em>the FIBA Cup</em>.
+          <p>
+           Team stats are maybe more interesting, but here again we can see how the Cup system skews the data: an excellent example is the Serbian team - their group blowout victories inflated the statsheets beyond recognition... In fact, if you were to give this statsheet or visualization to somebody who knows nothing about the teams, would he be able to tell you who won it all? Or who played in the finals? I don't think so.<br>
+           A remedy would be a partial analysis, exploring the statistics of the second round, but by then, the damage was already done... 
           </p>
         </div>
       </div>
+
       <div class="container">
         <div class="row">
           <div class="col-sm">
@@ -116,7 +126,7 @@
               <option value="APG">Assists per game</option>
               <option value="RPG">Rebounds per game</option>
               <option value="PlusMinus">Plus/Minus</option>
-              <option value="MinPG">Minutes per game</option>
+             
               <option value="FoulsPG">Fouls per game</option>
               <option value="EffPG">Efficiency per game</option>
               <option value="DefRebsPG">Defensive Rebounds per game</option>
@@ -126,16 +136,32 @@
               <option value="ThreePTSPCT">3 pts percentage</option>
                <option value="TOPG">Turnovers per game</option>
 
-
-    
+   
             </select>
           </div>
         </div>
-      </div>
+     
 
       <div id="chart-two"></div>
-      <button type="button" class="btn btn-dark" id="sort2">Sort</button>
+      <div class="col-sm"><button type="button" class="btn btn-dark btn-block" id="sort2">Sort</button></div>
+      
     </div>
+    <div class="jumbotron jumbotron-fluid mt-5 text-left">
+        <div class="container">
+          <h1 class="display-4">
+           Patterns <span class="text-danger">anyone</span>?
+          </h1>
+          <p class="text-left">
+           The World Cup isn't a league, it is not even a championship, that is why it is called <em>a cup</em>. The system might be improved and yes, maybe some teams are a bit amateurish, but hey! the purpose of the Cup is, among others, the growth of basketball in precisely thos countries - the ones <em>we</em>, the cool basketball countries, regularly beat with 20 to 40 points. <hr/>
+          The modern statistical toolkit, as well as some cool visualizations just don't have much effect on such a small sample - 4-8 games and at least 2 or 3 of those are blowouts of epic proportions. 
+          <hr/> 
+          The real basketball data gold is hidden elswere - in the play-by-play data, and that type of information enables us to play with all sorts of combinations, we can even make up our own Hollinger-indices, look up how well 2 or 3 players perform together etc. But there is a gotcha: even if we had, or should I say: if I had access to the PBP data of the world cup, I do not believe that it would add up too much value. The cup system simply doesn't lend itself to a deeper and more meaningful analysis due to the aformentioned factors.
+          <hr/>
+          Anyway, it is very interesting to work with D3.js. That is a pretty diplomatic statement: I simply cannot say or write that it was <em>fun</em> because it wasn't. But it is challenging, it is rewarding and it is probably the only dataviz tool that enables you, the analyst/developer, to create really every type of visualization that you could possibly envision. 
+          </p>
+        </div>
+      </div>
+
   </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.js"></script>
   <script src="app.js"></script>
