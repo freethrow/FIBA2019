@@ -80,10 +80,6 @@ y2 = d3
 var myColor = d3.scaleSequential()
 
 
-// tooltip
-var tooltip = d3.select("body").append("div") 
-    .attr("class", "tooltip")       
-    .style("opacity", 0);
 
 
 const xaxis2 = d3.axisBottom(x2).ticks(10);
@@ -98,6 +94,13 @@ const yaxis2 = d3.axisLeft(y2);
 
 generateChart2 = stat2 => {
   // We re working with the countryDataset
+
+
+    // sort the data by rank
+  countryDataset = countryDataset.sort(function(a, b) {
+    return (a['Rank'] - b['Rank'])
+  });
+
 
   var maxDomain2 = d3.max(countryDataset, d => d[stat2]);
   var minDomain2 = d3.min(countryDataset, d => d[stat2]);
@@ -121,6 +124,7 @@ else
   x2.domain([minDomain2, maxDomain2]);
   y2.domain(countryDataset.map(item => item.OfficialName));
   
+
 
 
   // join the data
@@ -260,6 +264,10 @@ d3.selectAll('.bar2').on("mouseover", function(d) {
     .text(`Average = ${avg.toFixed(2)}`)
     .attr("x",x2(avg) - 50)  
     .style("stroke", "black");
+
+
+
+
 
 
 

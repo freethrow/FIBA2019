@@ -23,7 +23,8 @@
     "Efficiency": 326.0,
     "PlusMinus": -85,
     "DoubleDoubles": 1,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 27
   },
   {
     "TeamId": 14,
@@ -49,7 +50,8 @@
     "Efficiency": 788.0,
     "PlusMinus": 97,
     "DoubleDoubles": 3,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 2
   },
   {
     "TeamId": 16,
@@ -75,7 +77,8 @@
     "Efficiency": 798.0,
     "PlusMinus": 39,
     "DoubleDoubles": 3,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 4
   },
   {
     "TeamId": 27,
@@ -101,7 +104,8 @@
     "Efficiency": 452.0,
     "PlusMinus": -18,
     "DoubleDoubles": 0,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 13 
   },
   {
     "TeamId": 34,
@@ -127,7 +131,8 @@
     "Efficiency": 500.0,
     "PlusMinus": 32,
     "DoubleDoubles": 0,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 21
   },
   {
     "TeamId": 39,
@@ -153,7 +158,8 @@
     "Efficiency": 379.0,
     "PlusMinus": -10,
     "DoubleDoubles": 1,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 24
   },
   {
     "TeamId": 44,
@@ -179,7 +185,8 @@
     "Efficiency": 306.0,
     "PlusMinus": -74,
     "DoubleDoubles": 0,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 29
   },
   {
     "TeamId": 51,
@@ -205,7 +212,8 @@
     "Efficiency": 348.0,
     "PlusMinus": -53,
     "DoubleDoubles": 0,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 16
   },
   {
     "TeamId": 59,
@@ -231,7 +239,8 @@
     "Efficiency": 765.0,
     "PlusMinus": 82,
     "DoubleDoubles": 3,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 3
   },
   {
     "TeamId": 64,
@@ -257,7 +266,8 @@
     "Efficiency": 484.0,
     "PlusMinus": 45,
     "DoubleDoubles": 3,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 18
   },
   {
     "TeamId": 67,
@@ -283,7 +293,8 @@
     "Efficiency": 478.0,
     "PlusMinus": 21,
     "DoubleDoubles": 2,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 11
   },
   {
     "TeamId": 83,
@@ -309,7 +320,8 @@
     "Efficiency": 482.0,
     "PlusMinus": 60,
     "DoubleDoubles": 1,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 10
   },
   {
     "TeamId": 85,
@@ -335,7 +347,9 @@
     "Efficiency": 306.0,
     "PlusMinus": -130,
     "DoubleDoubles": 1,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 11
+
   },
   {
     "TeamId": 86,
@@ -361,7 +375,8 @@
     "Efficiency": 307.0,
     "PlusMinus": -130,
     "DoubleDoubles": 1,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 28
   },
   {
     "TeamId": 89,
@@ -387,7 +402,8 @@
     "Efficiency": 369.0,
     "PlusMinus": -77,
     "DoubleDoubles": 5,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 26
   },
   {
     "TeamId": 113,
@@ -413,7 +429,8 @@
     "Efficiency": 569.0,
     "PlusMinus": 27,
     "DoubleDoubles": 1,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 19
   },
   {
     "TeamId": 116,
@@ -439,7 +456,8 @@
     "Efficiency": 534.0,
     "PlusMinus": 54,
     "DoubleDoubles": 0,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 17
   },
   {
     "TeamId": 122,
@@ -465,7 +483,8 @@
     "Efficiency": 313.0,
     "PlusMinus": -147,
     "DoubleDoubles": 3,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 32
   },
   {
     "TeamId": 123,
@@ -491,7 +510,8 @@
     "Efficiency": 674.0,
     "PlusMinus": -25,
     "DoubleDoubles": 2,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 8
   },
   {
     "TeamId": 125,
@@ -517,7 +537,8 @@
     "Efficiency": 341.0,
     "PlusMinus": -53,
     "DoubleDoubles": 0,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 15
   },
   {
     "TeamId": 134,
@@ -543,7 +564,8 @@
     "Efficiency": 312.0,
     "PlusMinus": -102,
     "DoubleDoubles": 2,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 30
   },
   {
     "TeamId": 138,
@@ -569,7 +591,8 @@
     "Efficiency": 816.0,
     "PlusMinus": 115,
     "DoubleDoubles": 3,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 1
   },
   {
     "TeamId": 151,
@@ -595,7 +618,8 @@
     "Efficiency": 426.0,
     "PlusMinus": -9,
     "DoubleDoubles": 3,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 20
   },
   {
     "TeamId": 152,
@@ -621,7 +645,8 @@
     "Efficiency": 491.0,
     "PlusMinus": 7,
     "DoubleDoubles": 2,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 22
   },
   {
     "TeamId": 154,
@@ -647,7 +672,8 @@
     "Efficiency": 829.0,
     "PlusMinus": 105,
     "DoubleDoubles": 2,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 7
   },
   {
     "TeamId": 156,
@@ -673,7 +699,8 @@
     "Efficiency": 413.0,
     "PlusMinus": 15,
     "DoubleDoubles": 1,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 12
   },
   {
     "TeamId": 158,
@@ -699,7 +726,8 @@
     "Efficiency": 379.0,
     "PlusMinus": -11,
     "DoubleDoubles": 1,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 14
   },
   {
     "TeamId": 611,
@@ -725,7 +753,8 @@
     "Efficiency": 506.0,
     "PlusMinus": 88,
     "DoubleDoubles": 2,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 9
   },
   {
     "TeamId": 879,
@@ -751,7 +780,8 @@
     "Efficiency": 423.0,
     "PlusMinus": 7,
     "DoubleDoubles": 3,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 23
   },
   {
     "TeamId": 886,
@@ -777,7 +807,8 @@
     "Efficiency": 765.0,
     "PlusMinus": 11,
     "DoubleDoubles": 6,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 6
   },
   {
     "TeamId": 8310,
@@ -803,7 +834,8 @@
     "Efficiency": 397.0,
     "PlusMinus": -36,
     "DoubleDoubles": 2,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 25
   },
   {
     "TeamId": 8323,
@@ -829,6 +861,7 @@
     "Efficiency": 948.0,
     "PlusMinus": 155,
     "DoubleDoubles": 4,
-    "TripleDoubles": 0
+    "TripleDoubles": 0,
+    "Rank": 5
   }
 ]
