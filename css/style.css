@@ -1,5 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
+
 }
 
 #title {
@@ -12,13 +13,21 @@ body {
 
 .container {
   margin: auto;
+  text-align:left;
+
+}
+
+#chart-two, #chart-area{
+  margin:auto;
+  border:1px solid #ccc;
   text-align: center;
 }
 
-#chart-area {
-  margin-top: 70px;
-  margin-bottom: 100px;
+
+svg{
+  background-color: #fff;
 }
+
 
 #flag {
   margin-top: 30px;
