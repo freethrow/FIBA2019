@@ -5,9 +5,11 @@ var stat2 = "PPG";
 
 var statName2 = "Points Per Game";
 
-const margins2 = { top: 80, right: 80, bottom: 140, left: 120 };
+var filter_teams = 32;
+
+const margins2 = { top: 40, right: 80, bottom: 80, left: 120 };
 const graphWidth2 = 880 - margins2.left - margins2.right;
-const graphHeight2 = 880 - margins2.top - margins2.bottom;
+const graphHeight2 = 780 - margins2.top - margins2.bottom;
 
 d3.json("teams.json").then(function(data) {
   data.forEach(function(d) {
@@ -25,6 +27,12 @@ d3.json("teams.json").then(function(data) {
     d.ThreePTSM = +d.FieldGoals3PointsMadeTotal / +d.GamesPlayedTotal;
     d.ThreePTSPCT =
       +d.FieldGoals3PointsMadeTotal / +d.FieldGoals3PointsAttemptedTotal;
+      d.fg2pct = +d.FieldGoals2PointsAttemptedTotal? +d.FieldGoals2PointsMadeTotal / +d.FieldGoals2PointsAttemptedTotal:0;
+      d.fg3pct =  +d.FieldGoals3PointsAttemptedTotal? +d.FieldGoals3PointsMadeTotal/+d.FieldGoals3PointsAttemptedTotal:0;
+      d.ftpct = +d.FreeThrowsAttemptedTotal? +d.FreeThrowsMadeTotal/+d.FreeThrowsAttemptedTotal:0;
+      d.ftPG = +d.FreeThrowsAttemptedTotal / d.GamesPlayedTotal;
+      d.efgpct = (+d.FieldGoals2PointsMadeTotal + +d.FieldGoals3PointsMadeTotal*1.5) / (+d.FieldGoals2PointsAttemptedTotal + +d.FieldGoals3PointsAttemptedTotal);
+   
   });
 
   countryDataset = data;
@@ -44,6 +52,24 @@ d3.select("#stat2").on("change", function() {
   sortButton2.hidden = false;
 });
 
+d3.select("#filter_team").on("change", function() {
+
+  filter_teams = d3.select(this).property("value");
+  console.log(filter_teams);
+  countryDataset = initialData.filter(
+    function(d){
+      return (d.Rank<=filter_teams)
+    }
+  )
+
+  generateChart2(stat2);
+  sortButton2 = document.body.querySelector("#sort2");
+  sortButton2.hidden = false;
+
+ 
+});
+
+
 // SETUP CHART
 // margins
 
@@ -51,7 +77,7 @@ const svg2 = d3
   .select("#chart-two")
   .append("svg")
   .attr("width", 880)
-  .attr("height", 880);
+  .attr("height", 780);
 
 const graph2 = svg2
   .append("g")
@@ -95,7 +121,7 @@ const yaxis2 = d3.axisLeft(y2);
 generateChart2 = stat2 => {
   // We re working with the countryDataset
 
-
+  
     // sort the data by rank
   countryDataset = countryDataset.sort(function(a, b) {
     return (a['Rank'] - b['Rank'])
@@ -143,7 +169,6 @@ else
     .enter()
     .append("rect")
 
-
     .attr("fill", d => {
       return myColor(d[stat2]);
     })
@@ -177,21 +202,6 @@ else
 
   
 
-d3.selectAll('.bar2').on("mouseover", function(d) {   
-            tooltip.transition()    
-                .duration(200)    
-                .style("opacity", 1);    
-            tooltip.html(d.OfficialName)  
-                .style("left", (d3.event.pageX) + "px")   
-                .style("top", (d3.event.pageY) + "px");  
-            })          
-        .on("mouseout", function(d) {   
-            tooltip.transition()    
-                .duration(500)    
-                .style("opacity", 0); 
-        });
-
-
     label_two
     .data(countryDataset)
     .enter()
@@ -209,6 +219,11 @@ d3.selectAll('.bar2').on("mouseover", function(d) {
     .attr("text-anchor", "right")
     .attr("font-size","10px")
     .text(function(d) {
+      if (stat2=='ThreePTSPCT' || stat2=='fg2pct' || stat2=='ftpct' || stat2=='efgpct'){
+        let num = parseFloat(100*d[stat2]).toFixed(0)+"%"
+        return num;
+      }
+
       return d[stat2].toFixed(2)
     })
     .attr("class","lb2")
@@ -218,13 +233,14 @@ d3.selectAll('.bar2').on("mouseover", function(d) {
          return x2(d[stat2])+10}
   );
 
-
-
     label_two.exit().remove();
-
 
     label_two
     .text(function(d) {
+      if (stat2=='ThreePTSPCT' || stat2=='fg2pct' || stat2=='ftpct' || stat2=='efgpct'){
+        let num = parseFloat(100*d[stat2]).toFixed(0)+"%"
+        return num;
+      }
       return d[stat2].toFixed(2)
     })    
     .transition()
@@ -256,25 +272,27 @@ d3.selectAll('.bar2').on("mouseover", function(d) {
     .attr("x2",x2(avg))
     .style("stroke", "red");
 
+
+    if (stat2=='ThreePTSPCT' || stat2=='fg2pct' || stat2=='ftpct' || stat2=='efgpct'){
+      avgtext = parseFloat(100*avg).toFixed(0)+"%"
+    }
+    else 
+    {
+      avgtext = avg.toFixed(2);
+    }
     graph2  
     .append("text")
     .attr('class','avgText')
     .attr("font-size","12px")
     .attr("y",-10)
-    .text(`Average = ${avg.toFixed(2)}`)
+    .text(`Average = ${avgtext}`)
     .attr("x",x2(avg) - 50)  
     .style("stroke", "black");
 
 
 
-
-
-
-
   xAxisGroup2.call(xaxis2);
   yAxisGroup2.call(yaxis2);
-
-
 
     
 };

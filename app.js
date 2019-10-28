@@ -20,8 +20,12 @@ const mapper = {
   TUR: "Turkey",
   JOR: "Jordan",
   CIV: "Cote d'Ivoire",
+  DOM: "Dominican Republic",
+  VEN: "Venezuela",
   PHI: "Philippines",
+  GRE: "Greece",
   LTU: "Lithuania",
+  CZE: "Czech Republic",
   NGR: "Nigeria",
   IRI: "Iran",
   ANG: "Angola",
@@ -30,7 +34,8 @@ const mapper = {
   KOR: "South Korea",
   RUS: "Russia",
   PUR: "Puertorico",
-  TUN: "Tunisia"
+  TUN: "Tunisia",
+
 };
 
 const flags = {
@@ -72,7 +77,7 @@ const flags = {
   GUM: "GU",
   GTM: "GT",
   SGS: "GS",
-  GRC: "GR",
+  GRE: "GR",
   GNQ: "GQ",
   GLP: "GP",
   JPN: "JP",
@@ -99,7 +104,7 @@ const flags = {
   HND: "HN",
   HMD: "HM",
   VEN: "VE",
-  PRI: "PR",
+  PUR: "PR",
   PSE: "PS",
   PLW: "PW",
   PRT: "PT",
@@ -302,6 +307,11 @@ d3.csv("fiba_stats.csv").then(function(data) {
     d.EffPG = +d.Efficiency / +d.GamesPlayedTotal;
     d.DefRebsPG = +d.DefensiveReboundsTotal / +d.GamesPlayedTotal;
     d.OffRebsPG = +d.OffensiveReboundsTotal / +d.GamesPlayedTotal;
+    d.fg2pct = +d.FieldGoals2PointsAttemptedTotal? +d.FieldGoals2PointsMadeTotal / +d.FieldGoals2PointsAttemptedTotal:0;
+    d.fg3pct =  +d.FieldGoals3PointsAttemptedTotal? +d.FieldGoals3PointsMadeTotal/+d.FieldGoals3PointsAttemptedTotal:0;
+    d.ftpct = +d.FreeThrowsAttemptedTotal? +d.FreeThrowsMadeTotal/+d.FreeThrowsAttemptedTotal:0;
+    d.ftPG = +d.FreeThrowsAttemptedTotal / d.GamesPlayedTotal;
+    d.efgpct = (+d.FieldGoals2PointsMadeTotal + +d.FieldGoals3PointsMadeTotal*1.5) / (+d.FieldGoals2PointsAttemptedTotal + +d.FieldGoals3PointsAttemptedTotal);
   });
 
   dataset = data;
@@ -383,16 +393,6 @@ generateChart = (country, stat) => {
     });
   }
 
-  console.log(chartData);
-
-  /*
-  chartData = chartData
-    .sort(function(a, b) {
-      return a[stat] - b[stat];
-    })
-    .reverse();
-*/
-
   var maxDomain = d3.max(chartData, d => d[stat]);
   var minDomain = d3.min(chartData, d => d[stat]);
 
@@ -466,14 +466,20 @@ generateChart = (country, stat) => {
       }
       return "#000";
     })
-
+    .attr("y", graphHeight)
     .transition()
     .duration(1000)
     .attr("x", d => x(d.FullName) + x.bandwidth() / 2)
     .attr("y", d => y(d[stat]) + 20)
     .attr("text-anchor", "middle")
+    .style("font", "10px")
 
     .text(function(d) {
+      if (stat=='fg2pct' || stat=='fg3pct' || stat=='ftpct' || stat=='efgpct'){
+        let num = parseFloat(100*d[stat]).toFixed(0)+"%"
+           
+        return num
+      }
       return d[stat].toFixed(1);
     });
 
@@ -493,7 +499,7 @@ generateChart = (country, stat) => {
     .attr("x", d => x(d.FullName))
     .attr("width", x.bandwidth)
     .attr("class", "bar")
-    .attr("stroke", "#000")
+    //.attr("stroke", "#000")
     .transition()
     .duration(1000)
     .attr("y", d => y(d[stat]))
@@ -567,6 +573,8 @@ d3.select("#sort").on("click", function() {
     .duration(500)
     .attr("x", d => x(d.FullName) + x.bandwidth() / 2)
     .attr("y", d => y(d[stat]) + 20);
+
+    
 
   // move the x axis labels
   xAxisGroup.call(xaxis);

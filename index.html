@@ -65,6 +65,7 @@
             <option value="LTU">Lithuania</option>
             <option value="NGR">Nigeria</option>
             <option value="IRI">Iran</option>
+            <option value="GRE">Greece</option>
             <option value="ANG">Angola</option>
             <option value="CHN">China</option>
             <option value="MNE">Montenegro</option>
@@ -95,6 +96,11 @@
             <option value="DefRebsPG">Defensive Rebounds per game</option>
             <option value="OffRebsPG">Offensive Rebounds per game</option>
             <option value="Points">Points Total</option>
+            <option value="ftpct">Freethrow %</option>
+            <option value="fg2pct">2 points field goal %</option>
+            <option value="fg3pct">3 points field goal %</option>
+            <option value="ftPG">Freethrow attempted per game</option>
+            <option value="efgpct">Effective Field Goal %</option>
           </select>
         </div>
       </div>
@@ -132,11 +138,26 @@
               <option value="DefRebsPG">Defensive Rebounds per game</option>
               <option value="OffRebsPG">Offensive Rebounds per game</option>
               <option value="ThreePTSM">3 pts made per game</option>
-              <option value="ThreePTSA">3 pts attempred per game</option>
-              <option value="ThreePTSPCT">3 pts percentage</option>
+              <option value="ThreePTSA">3 pts attempted per game</option>
+           
                <option value="TOPG">Turnovers per game</option>
+               <option value="ftpct">Freethrow %</option>
+               <option value="fg2pct">2 points field goal %</option>
+               <option value="fg3pct">3 points field goal %</option>
+               <option value="ftPG">Freethrow attempted per game</option>
+               <option value="efgpct">Effective Field Goal %</option>
 
    
+            </select>
+          </div>
+
+          <div class="col-sm">
+            <select name="filter_team" id="filter_team" class="form-control">
+              <option value="32">All teams</option>
+              <option value="4">Top 4</option>
+              <option value="8">Top 8</option>
+              <option value="16">Top 16</option>         
+            
             </select>
           </div>
         </div>
@@ -147,6 +168,165 @@
       
     </div>
     <div class="jumbotron jumbotron-fluid mt-5 jumbotron-cover-image text-left bottom">
+        <div class="container">
+          <h1 class="display-4">
+           Scatterplot <span class="text-danger">hell</span>?
+          </h1>
+          
+          <p class="text-left">
+           ...or an awesome visual tool? I do not know, you'll have to decide for yourself. I was planning on making a couple of scatterplots in order to visaulize some
+           relationships. This basketball dataset is pretty difficult to represent in a scatterplot, since the data is higly interdependent and correlated as all of the basic stats 
+           are a function of the same variable: did the player perform well or not. 
+          <hr/> 
+          I couldn't make up my mind and select the scatterplots so I said to myself: <em>why not plot all of them?</em>.
+            </p>
+        </div>
+      </div>
+
+      <div class="container">
+        <h1>Player scatterplot - by team</h1>
+        <div class="row">
+          <div class="col-sm">
+            <div id="flag"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+              <label for="team3">Select team</label>
+            <select name="team3" class="form-control" id="team3">
+              <option value="SRB">Serbia</option>
+              <option value="USA">United States</option>
+              <option value="GER">Germany</option>
+              <option value="AUS">Australia</option>
+              <option value="CAN">Canada</option>
+              <option value="ITA">Italy</option>
+              <option value="BRA">Brazil</option>
+              <option value="ARG">Argentina</option>
+              <option value="ESP">Spain</option>
+              <option value="FRA">France</option>
+              <option value="JOR">Jordan</option>
+              <option value="CIV">Cote d'Ivoire</option>
+              <option value="PHI">Philippines</option>
+              <option value="LTU">Lithuania</option>
+              <option value="NGR">Nigeria</option>
+              <option value="IRI">Iran</option>
+              <option value="GRE">Greece</option>
+              <option value="ANG">Angola</option>
+              <option value="CHN">China</option>
+              <option value="MNE">Montenegro</option>
+              <option value="KOR">South Korea</option>
+              <option value="RUS">Russia</option>
+              <option value="PUR">Puertorico</option>
+              <option value="TUN">Tunis</option>
+              <option value="JPN">Japan</option>
+              <option value="CZE">Czech Republic</option>
+              <option value="VEN">Venezuela</option>
+              <option value="NZL">New Zealand</option>
+              <option value="DOM">Dominican Republic</option>
+              <option value="POL">Poland</option>
+              <option value="TUR">Turkey</option>
+              <option value="SEN">Senegal</option>
+              <option value="WRLD">World</option>
+            </select>
+          </div>
+          <div class="col-sm">
+              <label for="stat3x">X-axis statistics</label>
+            <select name="stat3x" id="stat3x" class="form-control">
+              <option value="PPG">Points per game</option>
+              <option value="APG">Assists per game</option>
+              <option value="RPG">Rebounds per game</option>
+              <option value="PlusMinus">Plus/Minus</option>
+              <option value="MinPG">Minutes per game</option>
+              <option value="FoulsPG">Fouls per game</option>
+              <option value="EffPG">Efficiency per game</option>
+              <option value="DefRebsPG">Defensive Rebounds per game</option>
+              <option value="OffRebsPG">Offensive Rebounds per game</option>
+              <option value="Points">Points Total</option>
+              <option value="ftpct">Freethrow %</option>
+              <option value="fg2pct">2 points field goal %</option>
+              <option value="fg3pct">3 points field goal %</option>
+              <option value="ftPG">Freethrow attempted per game</option>
+              <option value="efgpct">Effective Field Goal %</option>
+            </select>
+          </div>
+
+          <div class="col-sm">
+            <label for="stat3y">Y-axis statistics</label>
+          <select name="stat3y" id="stat3y" class="form-control">
+              <option value="RPG">Rebounds per game</option>
+            <option value="PPG">Points per game</option>
+            <option value="APG">Assists per game</option>
+            
+            <option value="PlusMinus">Plus/Minus</option>
+            <option value="MinPG">Minutes per game</option>
+            <option value="FoulsPG">Fouls per game</option>
+            <option value="EffPG">Efficiency per game</option>
+            <option value="DefRebsPG">Defensive Rebounds per game</option>
+            <option value="OffRebsPG">Offensive Rebounds per game</option>
+            <option value="Points">Points Total</option>
+            <option value="ftpct">Freethrow %</option>
+            <option value="fg2pct">2 points field goal %</option>
+            <option value="fg3pct">3 points field goal %</option>
+            <option value="ftPG">Freethrow attempted per game</option>
+            <option value="efgpct">Effective Field Goal %</option>
+          </select>
+        </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm">
+                <label for="stat3r">Radius statistics</label>
+              <select name="stat3r" id="stat3r" class="form-control">
+                  <option value="None">None</option>
+                  <option value="PlusMinusPG">PlusMinus per game</option>
+                  <option value="RPG">Rebounds per game</option>
+                <option value="PPG">Points per game</option>
+                <option value="APG">Assists per game</option>
+                
+                <option value="PlusMinus">Plus/Minus</option>
+                <option value="MinPG">Minutes per game</option>
+                <option value="FoulsPG">Fouls per game</option>
+                <option value="EffPG">Efficiency per game</option>
+                <option value="DefRebsPG">Defensive Rebounds per game</option>
+                <option value="OffRebsPG">Offensive Rebounds per game</option>
+                <option value="Points">Points Total</option>
+                <option value="ftpct">Freethrow %</option>
+                <option value="fg2pct">2 points field goal %</option>
+                <option value="fg3pct">3 points field goal %</option>
+                <option value="ftPG">Freethrow attempted per game</option>
+                <option value="efgpct">Effective Field Goal %</option>
+              </select>
+            </div>
+
+            <div class="col-sm">
+                <label for="stat3c">Color statistics</label>
+              <select name="stat3c" id="stat3c" class="form-control">
+                  <option value="None">None</option>
+                  <option value="RPG">Rebounds per game</option>
+                <option value="PPG">Points per game</option>
+                <option value="APG">Assists per game</option>
+                <option value="PlusMinusPG">PlusMinus per game</option>
+                <option value="PlusMinus">Plus/Minus</option>
+                <option value="MinPG">Minutes per game</option>
+                <option value="FoulsPG">Fouls per game</option>
+                <option value="EffPG">Efficiency per game</option>
+                <option value="DefRebsPG">Defensive Rebounds per game</option>
+                <option value="OffRebsPG">Offensive Rebounds per game</option>
+                <option value="Points">Points Total</option>
+                <option value="ftpct">Freethrow %</option>
+                <option value="fg2pct">2 points field goal %</option>
+                <option value="fg3pct">3 points field goal %</option>
+                <option value="ftPG">Freethrow attempted per game</option>
+                <option value="efgpct">Effective Field Goal %</option>
+              </select>
+            </div>
+        </div>
+       
+
+
+      <div id="chart-three"></div>
+
+      <div class="jumbotron jumbotron-fluid mt-5 jumbotron-cover-image text-left bottom">
         <div class="container">
           <h1 class="display-4">
            Patterns <span class="text-danger">anyone</span>?
@@ -161,10 +341,23 @@
           </p>
         </div>
       </div>
-      
+
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">Made with love for basketball and visualizations by <span class="text-danger"><a href="http://www.freethrow.rs">freethrow</a></span></div>
+            <col-sm>2019</col-sm>
+          </div>
+        
+      </div>
+      </footer>
 
   </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.12.0/d3.js"></script>
+  <script src="d3.tip.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
   <script src="app.js"></script>
   <script src="app2.js"></script>
+  <script src="app3.js"></script>
 </html>
